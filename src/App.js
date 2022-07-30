@@ -1,5 +1,16 @@
+import Footer from "./Layouts/Footer";
+
+import "./Assets/Styles/index.scss";
+import "./Assets/Styles/footer.scss";
+
+import "./Assets/Images/Footer/footer-logo.svg";
+
 function App() {
-  return <h1>Assalomu alaykum</h1>;
+  return (
+    <>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
