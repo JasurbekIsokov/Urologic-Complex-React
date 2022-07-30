@@ -1,3 +1,204 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url(../Fonts/Gilroy/Gilroy-Regular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../Fonts/Poppins/Poppins-Thin.woff);
+}
+
+.footer-back {
+  background-image: linear-gradient(90deg, #fff, rgba(#12aadb, 0.1));
+}
+
 .footer {
-  padding: 3rem auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  padding-top: 3rem;
+  padding-bottom: 19px;
+
+  max-width: 1326px;
+
+  &__left {
+    padding-right: 3.5rem;
+
+    &--top {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+
+      img {
+        margin-right: 0.5rem;
+      }
+
+      p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 160%;
+        letter-spacing: -0.06em;
+        color: #0b304f;
+      }
+    }
+
+    &--description {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #afb7bf;
+      margin: 12px 0 1rem 0;
+    }
+
+    &--call {
+      img {
+        padding: 12px;
+        background-color: #e5f6fc;
+        margin-right: 1.5rem;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  &__leftMidle {
+    list-style-type: none;
+    li {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #9a9ea6;
+      margin-bottom: 1rem;
+
+      &:hover {
+        color: #12aadb;
+        cursor: pointer;
+      }
+    }
+
+    li:nth-child(1) {
+      margin-bottom: 1.5rem;
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: capitalize;
+      color: #0b304f;
+    }
+  }
+
+  &__rightMidle {
+    list-style-type: none;
+    li {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #9a9ea6;
+      margin-bottom: 1rem;
+
+      &:hover {
+        color: #12aadb;
+        cursor: pointer;
+      }
+    }
+
+    li:nth-child(1) {
+      margin-bottom: 1.5rem;
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: capitalize;
+      color: #0b304f;
+    }
+  }
+
+  &__right {
+    &--title {
+      margin-bottom: 1.5rem;
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #0b304f;
+    }
+
+    &--description {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      display: flex;
+      align-items: center;
+      color: #9a9ea6;
+      margin-bottom: 0.5rem;
+    }
+
+    &--email {
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0b304f;
+
+      span {
+        color: #2285f5;
+      }
+    }
+  }
+}
+
+.footerBottom {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1326px;
+
+  &__title {
+    // font-family: "Gilroy";
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8394a2;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      // font-family: "Gilroy";
+      font-family: sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      font-feature-settings: "liga" off;
+      color: #0b304f;
+    }
+
+    img {
+      margin-left: 6px;
+    }
+  }
 }
