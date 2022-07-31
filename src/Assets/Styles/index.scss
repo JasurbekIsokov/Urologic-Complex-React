@@ -26,3 +26,11 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
+.btn {
+  cursor: pointer;
+
+  &:active {
+    transform: scale(1.03);
+  }
+}

@@ -1,0 +1,47 @@
+.ucHomeVideo {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #e5f6fc;
+  border-radius: 32px;
+
+  &__left {
+    padding: 0.5rem 6.25rem 0 1.75rem;
+    &--title {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 140%;
+      color: #0b304f;
+      margin-bottom: 1rem;
+    }
+
+    &--description {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 165%;
+      color: #2b4b65;
+    }
+
+    &--button {
+      width: 150px;
+      height: 42px;
+      margin-top: 2rem;
+      padding: 10px 32px;
+      background: #12aadb;
+      border-radius: 16px;
+
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      color: #ffffff;
+    }
+  }
+}
