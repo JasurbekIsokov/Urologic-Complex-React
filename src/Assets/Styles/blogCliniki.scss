@@ -1,8 +1,9 @@
 .blogCliniki__top {
+  max-width: 1060px;
+  margin: auto auto;
+
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-
-  max-width: 1400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,12 +29,18 @@
       line-height: 160%;
       color: #0b304f;
       margin-right: 0.5rem;
+
+      &:hover {
+        cursor: pointer;
+        color: #12aadb;
+      }
     }
   }
 }
 
 .blogCliniki {
-  max-width: 1400px;
+  max-width: 1060px;
+  margin: auto auto;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -44,6 +51,8 @@
     border: 1px solid rgba($color: #0b304f, $alpha: 0.2);
     border-radius: 32px;
     margin-right: 20px;
+
+    max-width: 561px;
 
     &:hover {
       border: 1px solid #12aadb;
