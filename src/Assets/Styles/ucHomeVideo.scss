@@ -1,14 +1,17 @@
 .ucHomeVideo {
+  max-width: 1400px;
+  margin: auto auto;
+
   display: grid;
   grid-template-columns: auto auto;
 
-  margin: 2rem 0;
+  margin: 2rem auto;
   padding: 2rem;
   background: #e5f6fc;
   border-radius: 32px;
 
   &__left {
-    padding: 0.5rem 6.25rem 0 1.75rem;
+    padding: 0.5rem 4.25rem 0 1.75rem;
     &--title {
       font-family: "Gilroy", sans-serif;
       font-style: normal;
@@ -42,6 +45,62 @@
       font-size: 16px;
       line-height: 140%;
       color: #ffffff;
+    }
+  }
+  &__right {
+    &--title {
+      padding: 0.5rem 4.25rem 0 1.75rem;
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 140%;
+      color: #0b304f;
+      margin-bottom: 1rem;
+
+      display: none;
+    }
+  }
+}
+
+// min-width: 1400px
+
+@media only screen and (min-width: 1400px) {
+  .ucHomeVideo {
+    &__left {
+      padding-right: 6.25rem;
+    }
+  }
+}
+
+// min-width: 1200px
+
+@media only screen and (max-width: 1200px) {
+  .ucHomeVideo {
+    grid-template-columns: auto;
+
+    margin: 2rem auto;
+    padding: 2rem;
+
+    &__left {
+      padding: 0.5rem 4.25rem 0 1.75rem;
+      order: 2;
+      &--title {
+        display: none;
+      }
+
+      &--description {
+        order: 1;
+      }
+    }
+
+    &__right {
+      order: 1;
+      padding-left: 1.75rem;
+      &--title {
+        display: inline-block;
+        padding-left: 0;
+      }
     }
   }
 }
