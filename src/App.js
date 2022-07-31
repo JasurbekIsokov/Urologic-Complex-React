@@ -11,6 +11,7 @@ import BlogCliniki from "./Components/BlogCliniki";
 import "./Assets/Styles/index.scss";
 import "./Assets/Styles/footer.scss";
 import "./Assets/Styles/ucHomeVideo.scss";
+import "./Assets/Styles/blogCliniki.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";

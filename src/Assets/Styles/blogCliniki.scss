@@ -1,0 +1,227 @@
+.blogCliniki__top {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &--title {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: #0b304f;
+  }
+
+  &--right {
+    display: flex;
+    justify-content: start;
+
+    p {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #0b304f;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.blogCliniki {
+  max-width: 1400px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 4.5rem;
+
+  &__left {
+    padding: 1.5rem;
+    border: 1px solid rgba($color: #0b304f, $alpha: 0.2);
+    border-radius: 32px;
+    margin-right: 20px;
+
+    &:hover {
+      border: 1px solid #12aadb;
+    }
+
+    &--time {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 1.5rem;
+    }
+
+    &--time-year {
+      margin-right: 2rem;
+    }
+
+    &--time-year,
+    &--time-hour {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: #afb7bf;
+    }
+
+    &--time-hour {
+      margin-left: 8px;
+    }
+
+    &--title {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 160%;
+      color: #0b304f;
+      margin: 0.5rem auto;
+    }
+
+    &--description {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #576f83;
+      margin-bottom: 1rem;
+    }
+
+    &--bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 0.5rem;
+
+      &:hover {
+        cursor: pointer;
+
+        p {
+          color: #12aadb;
+        }
+      }
+
+      p {
+        margin-right: 0.5rem;
+
+        font-family: "Gilroy", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+
+        color: #0b304f;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+
+    &--glaz {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        margin-left: 0.5rem;
+        font-family: "Gilroy", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #afb7bf;
+      }
+    }
+  }
+
+  &__right {
+    margin-left: 20px;
+  }
+
+  .midle-box {
+    margin: 20px auto;
+  }
+
+  &__box {
+    border: 1px solid rgba($color: #0b304f, $alpha: 0.2);
+    border-radius: 32px;
+    padding: 1rem;
+    display: flex;
+    justify-content: start;
+
+    &:hover {
+      border: 1px solid #12aadb;
+    }
+
+    img {
+      margin-right: 1rem;
+    }
+
+    &--title {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 140%;
+      color: #0b304f;
+      margin: 5px 0 4px 0;
+    }
+
+    &--description {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #576f83;
+      margin-bottom: 4px;
+    }
+
+    &--time {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+      }
+    }
+
+    &--time-year {
+      margin-right: 1rem;
+    }
+
+    &--time-year,
+    &--time-hour {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 160%;
+      color: #afb7bf;
+    }
+
+    &--time-hour {
+      margin-left: 0px;
+    }
+  }
+}
+
+.responcive {
+  display: none;
+}
