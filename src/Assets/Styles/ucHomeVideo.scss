@@ -104,3 +104,54 @@
     }
   }
 }
+
+// min-width: 992px
+
+@media only screen and (max-width: 992px) {
+  .ucHomeVideo {
+    &__right {
+      padding-left: 1rem;
+      &--title {
+        display: inline-block;
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+// min-width: 768px
+
+@media only screen and (max-width: 768px) {
+  .ucHomeVideo {
+    margin: 20px auto 15px auto;
+    padding: 1.5rem;
+
+    &__left {
+      padding: 1rem 2rem;
+
+      &--button {
+        width: 150px;
+        height: 42px;
+        margin-top: 2rem;
+        padding: 10px 32px;
+        margin: auto auto;
+      }
+    }
+    &__right {
+      text-align: center;
+      &--title {
+        padding: 0.5rem 4.25rem 0 1.75rem;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        margin-bottom: 1rem;
+      }
+
+      img {
+        width: 279px;
+        height: 150px;
+      }
+    }
+  }
+}
