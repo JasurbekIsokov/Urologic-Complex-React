@@ -155,3 +155,50 @@
     }
   }
 }
+
+// min-width: 576px
+
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 87.2%;
+    margin: 0 auto;
+  }
+
+  .ucHomeVideo {
+    margin: 20px auto 15px auto;
+    padding: 1.5rem;
+
+    &__left {
+      padding: 0;
+
+      &--button {
+        width: 150px;
+        height: 42px;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        margin-top: 1rem;
+      }
+    }
+    &__right {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: left;
+      padding: 0;
+
+      &--title {
+        padding: 0;
+        margin: 0;
+      }
+
+      img {
+        width: 279px;
+        height: 150px;
+        margin: 1rem 0;
+        padding: 0;
+      }
+    }
+  }
+}
