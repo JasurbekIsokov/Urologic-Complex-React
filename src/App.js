@@ -1,5 +1,9 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Footer from "./Layouts/Footer";
 import UcHomeVideo from "./Components/UcHomeVideo";
+import BlogCliniki from "./Components/BlogCliniki";
 
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -15,8 +19,9 @@ import "./Assets/Fonts/Gilroy/Gilroy-Regular.ttf";
 function App() {
   return (
     <>
-      <UcHomeVideo />
       {/* <Footer /> */}
+      {/* <UcHomeVideo /> */}
+      <BlogCliniki />
     </>
   );
 }
