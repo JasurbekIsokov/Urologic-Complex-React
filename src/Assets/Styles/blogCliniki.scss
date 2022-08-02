@@ -1,5 +1,5 @@
 .blogCliniki__top {
-  max-width: 106 0px;
+  max-width: 1060px;
   margin: auto auto;
 
   margin-top: 3rem;
@@ -39,7 +39,7 @@
 }
 
 .blogCliniki {
-  max-width: 106 0px;
+  max-width: 1060px;
   margin: auto auto;
 
   display: grid;
@@ -337,18 +337,13 @@
 
 @media only screen and (max-width: 768px) {
   .blogCliniki__top {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 1rem;
 
-    .blogCliniki__top {
-      margin-top: 20px;
-      margin-bottom: 1rem;
-
-      &--title {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 160%;
-      }
+    &--title {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 160%;
     }
   }
 }
@@ -356,5 +351,82 @@
 // min-width: 576px
 
 @media only screen and (max-width: 576px) {
-  //
+  .blogCliniki__top {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    &--title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 160%;
+    }
+
+    &--right {
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+      }
+    }
+  }
+
+  .blogCliniki {
+    margin-bottom: 28px;
+
+    &__left {
+      &--time {
+        margin-top: 0.5rem;
+      }
+
+      &--time {
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      &--time-year {
+        margin-right: 1.5rem;
+      }
+
+      &--time-year,
+      &--time-hour {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160%;
+      }
+
+      &--time-hour {
+        margin-left: 8px;
+      }
+
+      &--title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+      }
+
+      &--description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+      }
+
+      &--button {
+        p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 160%;
+        }
+      }
+
+      &--glaz {
+        display: none;
+      }
+    }
+  }
+
+  .blogCliniki__left ~ div {
+    margin-top: 1rem;
+  }
 }
