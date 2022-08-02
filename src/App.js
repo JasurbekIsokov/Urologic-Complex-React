@@ -20,9 +20,9 @@ import "./Assets/Fonts/Gilroy/Gilroy-Regular.ttf";
 function App() {
   return (
     <>
-      {/* <Footer /> */}
-      {/* <UcHomeVideo /> */}
+      <UcHomeVideo />
       <BlogCliniki />
+      <Footer />
     </>
   );
 }
