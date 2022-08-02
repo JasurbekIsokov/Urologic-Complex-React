@@ -6,6 +6,7 @@ import UcHomeVideo from "./Components/UcHomeVideo";
 import BlogCliniki from "./Components/BlogCliniki";
 import Rabota from "./Components/Rabota";
 import Pochemu from "./Components/Pochemu";
+import OurServices from "./Components/OurServices";
 
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -16,6 +17,7 @@ import "./Assets/Styles/ucHomeVideo.scss";
 import "./Assets/Styles/blogCliniki.scss";
 import "./Assets/Styles/rabota.scss";
 import "./Assets/Styles/pochemu.scss";
+import "./Assets/Styles/OurServices.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
@@ -26,6 +28,7 @@ function App() {
     <>
       <Rabota />
       <Pochemu />
+      <OurServices />
       <UcHomeVideo />
       <BlogCliniki />
       <Footer />
