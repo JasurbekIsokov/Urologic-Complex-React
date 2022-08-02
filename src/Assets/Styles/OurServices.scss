@@ -164,3 +164,52 @@
     }
   }
 }
+
+// max-width: 1200
+
+@media only screen and (max-width: 1200px) {
+  .services {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    &__boxbox {
+      padding-right: 4.5rem;
+    }
+
+    &__box {
+      padding: 1.5rem;
+    }
+  }
+}
+
+// max-width: 992px
+
+@media only screen and (max-width: 992px) {
+  .services {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 0.5rem;
+
+    &__boxbox {
+      padding-right: 4.5rem;
+    }
+
+    &__box {
+      padding: 1.5rem;
+    }
+
+    .element,
+    .element1 {
+      display: none;
+    }
+  }
+}
+
+// max-width: 768px
+
+@media only screen and (max-width: 768px) {
+}
+
+// max-width: 576px
+
+@media only screen and (max-width: 576px) {
+}
