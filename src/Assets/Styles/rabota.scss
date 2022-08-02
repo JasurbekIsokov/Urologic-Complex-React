@@ -49,3 +49,28 @@
     color: #ffffff;
   }
 }
+
+// max-width: 1200
+
+@media only screen and (max-width: 1200px) {
+  //
+}
+
+// max-width: 992px
+
+@media only screen and (max-width: 992px) {
+  .rabota {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+// max-width: 768px
+
+@media only screen and (max-width: 768px) {
+}
+
+// max-width: 576px
+
+@media only screen and (max-width: 576px) {
+}
