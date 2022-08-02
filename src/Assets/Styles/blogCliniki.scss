@@ -1,5 +1,5 @@
 .blogCliniki__top {
-  max-width: 1060px;
+  max-width: 106 0px;
   margin: auto auto;
 
   margin-top: 3rem;
@@ -39,7 +39,7 @@
 }
 
 .blogCliniki {
-  max-width: 1060px;
+  max-width: 106 0px;
   margin: auto auto;
 
   display: grid;
@@ -211,10 +211,6 @@
       }
     }
 
-    &--time-year {
-      margin-right: 1rem;
-    }
-
     &--time-year,
     &--time-hour {
       font-family: "Gilroy", sans-serif;
@@ -225,6 +221,13 @@
       color: #afb7bf;
     }
 
+    &--time-year {
+      margin-right: 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
     &--time-hour {
       margin-left: 0px;
     }
@@ -233,4 +236,59 @@
 
 .responcive {
   display: none;
+}
+
+// min-width: 1200px
+
+@media only screen and (max-width: 1200px) {
+  .blogCliniki {
+    &__right {
+      margin-left: 10px;
+    }
+
+    &__box {
+      flex-direction: column;
+
+      img {
+        margin: 0;
+      }
+
+      &--time {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+          width: 16px;
+          height: 16px;
+          margin-right: 4px;
+        }
+      }
+
+      &--time-year {
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+
+    .midle-box {
+      margin-bottom: 0;
+    }
+
+    .midle-box > img {
+      display: none;
+    }
+
+    .midle-box ~ div {
+      display: none;
+    }
+  }
+}
+
+// min-width: 992px
+
+@media only screen and (max-width: 992px) {
+  //
 }
