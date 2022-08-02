@@ -1,0 +1,152 @@
+.pochemu__title {
+  max-width: 1326px;
+  margin: 0 auto;
+
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 160%;
+  color: #0b304f;
+}
+
+.pochemu {
+  max-width: 1326px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+
+  &__box {
+    border-radius: 18px;
+    padding: 1.5rem 2rem;
+
+    &--top {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+
+      p {
+        margin-left: 1rem;
+
+        font-family: "Gilroy", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        color: #0b304f;
+      }
+    }
+
+    &--description {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      color: #8394a2;
+      margin-top: 1rem;
+    }
+  }
+
+  .pochemu-1 {
+    background-color: rgba($color: #f27bb5, $alpha: 0.1);
+  }
+  .pochemu-2 {
+    background-color: rgba($color: #008475, $alpha: 0.1);
+  }
+  .pochemu-3 {
+    background-color: rgba($color: #6aa8ff, $alpha: 0.1);
+  }
+  .pochemu-4 {
+    background-color: rgba($color: #ffd944, $alpha: 0.1);
+  }
+  .pochemu-5 {
+    background-color: rgba($color: #f27bb5, $alpha: 0.1);
+  }
+  .pochemu-6 {
+    background-color: rgba($color: #6aa8ff, $alpha: 0.1);
+  }
+}
+
+// max-width: 1200
+
+@media only screen and (max-width: 1200px) {
+  .pochemu {
+    gap: 1rem;
+    &__box {
+      padding: 1rem 1.5rem;
+    }
+  }
+}
+
+// max-width: 992px
+
+@media only screen and (max-width: 992px) {
+  .pochemu {
+    grid-template-columns: auto auto;
+  }
+}
+
+// max-width: 768px
+
+@media only screen and (max-width: 768px) {
+  .pochemu__title {
+    font-size: 32px;
+  }
+
+  .pochemu {
+    grid-template-columns: auto;
+  }
+
+  .pochemu-2,
+  .pochemu-4,
+  .pochemu-6 {
+    display: none;
+  }
+}
+
+// max-width: 576px
+
+@media only screen and (max-width: 576px) {
+  .pochemu__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    margin-top: 30px;
+    margin-bottom: 8px;
+  }
+
+  .pochemu {
+    gap: 0;
+
+    &__box {
+      padding: 1rem 1.5rem;
+
+      &--top {
+        p {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 130%;
+        }
+      }
+
+      &__description {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 160%;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .pochemu-3,
+  .pochemu-5 {
+    display: none;
+  }
+}

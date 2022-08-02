@@ -5,6 +5,7 @@ import Footer from "./Layouts/Footer";
 import UcHomeVideo from "./Components/UcHomeVideo";
 import BlogCliniki from "./Components/BlogCliniki";
 import Rabota from "./Components/Rabota";
+import Pochemu from "./Components/Pochemu";
 
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -14,6 +15,7 @@ import "./Assets/Styles/footer.scss";
 import "./Assets/Styles/ucHomeVideo.scss";
 import "./Assets/Styles/blogCliniki.scss";
 import "./Assets/Styles/rabota.scss";
+import "./Assets/Styles/pochemu.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
@@ -23,6 +25,7 @@ function App() {
   return (
     <>
       <Rabota />
+      <Pochemu />
       <UcHomeVideo />
       <BlogCliniki />
       <Footer />
