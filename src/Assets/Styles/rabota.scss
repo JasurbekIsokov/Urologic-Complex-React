@@ -1,0 +1,51 @@
+.rabota {
+  max-width: 1326px;
+  margin: auto auto;
+
+  background-image: url(../Images/Rabota/rabota.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 66px 60px;
+  border-radius: 18px;
+  margin-top: 18px;
+
+  &__title {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #0b304f;
+    margin-bottom: 0.5rem;
+    max-width: 579px;
+  }
+
+  &__description {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #8394a2;
+    margin-bottom: 2rem;
+    max-width: 579px;
+  }
+
+  &__button {
+    padding: 16px 64px;
+    background: #12aadb;
+    border: #12aadb;
+    box-shadow: 0px 8px 32px rgba(18, 170, 219, 0.3);
+    border-radius: 16px;
+
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    cursor: pointer;
+    color: #ffffff;
+  }
+}
