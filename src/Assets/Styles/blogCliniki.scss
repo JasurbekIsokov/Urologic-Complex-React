@@ -290,5 +290,51 @@
 // min-width: 992px
 
 @media only screen and (max-width: 992px) {
+  .blogCliniki__top {
+    &--right {
+      display: none;
+    }
+  }
+
+  .blogCliniki {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+
+    &__left {
+      margin-left: 0;
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &__left ~ div {
+      margin-top: 1.5rem;
+    }
+
+    &__right {
+      display: none;
+    }
+
+    .responcive {
+      margin-left: 0;
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .blogCliniki__top--right {
+        display: flex;
+        justify-content: start;
+        text-align: left;
+      }
+    }
+  }
+}
+
+// min-width: 768px
+
+@media only screen and (max-width: 768px) {
   //
 }
