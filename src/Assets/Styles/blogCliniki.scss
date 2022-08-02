@@ -336,5 +336,25 @@
 // min-width: 768px
 
 @media only screen and (max-width: 768px) {
+  .blogCliniki__top {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+
+    .blogCliniki__top {
+      margin-top: 20px;
+      margin-bottom: 1rem;
+
+      &--title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 160%;
+      }
+    }
+  }
+}
+
+// min-width: 576px
+
+@media only screen and (max-width: 576px) {
   //
 }
