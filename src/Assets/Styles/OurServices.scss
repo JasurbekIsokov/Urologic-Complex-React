@@ -165,6 +165,10 @@
   }
 }
 
+.services__bottom {
+  display: none;
+}
+
 // max-width: 1200
 
 @media only screen and (max-width: 1200px) {
@@ -207,6 +211,94 @@
 // max-width: 768px
 
 @media only screen and (max-width: 768px) {
+  .services {
+    grid-template-columns: auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    &__boxbox {
+      grid-column: 1/2;
+
+      &--title {
+        margin-bottom: 1rem;
+        font-size: 32px;
+      }
+
+      &--descriptin {
+        margin-bottom: 1rem;
+      }
+
+      button {
+        display: none;
+      }
+    }
+
+    &__box {
+      &--top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+
+        p {
+          margin-left: 1.5rem;
+          margin-top: 0;
+        }
+      }
+
+      &--bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+
+        p {
+          margin: 0;
+        }
+
+        img {
+          margin: 0;
+        }
+      }
+    }
+
+    .ginekologiya {
+      display: none;
+    }
+  }
+
+  .services__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 8px 24px;
+
+      height: 42px;
+      border: none;
+
+      background: #12aadb;
+      box-shadow: 0px 8px 32px rgba(18, 170, 219, 0.3);
+      border-radius: 16px;
+
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #ffffff;
+
+      img {
+        margin-left: 0.5rem;
+      }
+    }
+  }
 }
 
 // max-width: 576px
