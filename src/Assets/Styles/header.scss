@@ -1,0 +1,211 @@
+.header {
+  max-width: 1326px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+
+  &__left {
+    display: flex;
+    align-items: center;
+
+    p {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 15px;
+      line-height: 160%;
+      letter-spacing: -0.06em;
+      color: #0b304f;
+      margin-left: 8px;
+      margin-right: 2rem;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-right: 36px;
+
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0b304f;
+
+        i {
+          margin-left: 10px;
+        }
+
+        &:hover {
+          color: #12aadb;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    justify-self: end;
+    align-items: center;
+
+    &--search {
+      display: flex;
+      align-items: center;
+      margin-right: 1rem;
+    }
+
+    &--kontakt {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 32px;
+      background: #12aadb;
+      box-shadow: 0px 8px 32px rgba(18, 170, 219, 0.3);
+      border-radius: 16px;
+      width: 136px;
+      height: 42px;
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
+
+// DropDown
+
+.dropbtn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-right: 36px;
+  cursor: pointer;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #0b304f;
+
+  i {
+    margin-left: 10px;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 35px rgba(11, 48, 79, 0.06);
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.dropdown-content li {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #8394a2;
+  margin: 2px 0;
+  cursor: pointer;
+
+  &:hover {
+    color: #12aadb;
+  }
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left: -2rem;
+}
+
+// right Dropdown
+
+.languageDropbtn {
+  margin-right: 1rem;
+}
+
+.dropdown-content-language {
+  li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  img {
+    margin-left: 8px;
+  }
+  list-style-type: none;
+  min-width: 80px;
+}
+
+.dropdown:hover .dropdown-content-language {
+  margin-left: -1rem;
+}
+
+// responsivdagi search input
+
+.searchInput {
+  display: none;
+
+  padding: 9px 16px;
+  // display: flex;
+  justify-content: start;
+  background: #ffffff;
+  border: 1px solid rgba(11, 48, 79, 0.1);
+  border-radius: 14px;
+
+  img {
+    margin-right: 8px;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgb(11, 48, 79);
+
+    &::placeholder {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 140%;
+      color: rgba(11, 48, 79, 0.2);
+    }
+  }
+}
