@@ -6,6 +6,8 @@ import searchRes from "../Assets/Images/Header/search-res.svg";
 import uzFlag from "../Assets/Images/Header/uz-flag.svg";
 import ruFlag from "../Assets/Images/Header/ru-flag.svg";
 
+import GamburderBtn from "../Components/GamburderBtn";
+
 const Header = () => {
   return (
     <div className="container">
@@ -88,6 +90,8 @@ const Header = () => {
             Контакты
           </p>
         </div>
+
+        <GamburderBtn />
       </header>
 
       <div className="resHeader">
@@ -135,8 +139,6 @@ const Header = () => {
           </navbar>
         </header>
       </div>
-
-      {/* gamburer icon qo'yiladi */}
 
       <div className="searchInput">
         <img src={searchRes} alt="search icon" />

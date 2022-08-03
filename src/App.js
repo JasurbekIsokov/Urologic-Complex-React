@@ -18,8 +18,7 @@ import "./Assets/Styles/rabota.scss";
 import "./Assets/Styles/pochemu.scss";
 import "./Assets/Styles/OurServices.scss";
 import "./Assets/Styles/header.scss";
-
-import "antd/dist/antd.css";
+import "./Assets/Styles/gamburgerBtn.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
