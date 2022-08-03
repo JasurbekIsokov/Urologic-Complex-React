@@ -90,6 +90,52 @@ const Header = () => {
         </div>
       </header>
 
+      <div className="resHeader">
+        <header className="header">
+          <navbar className="resNavbar">
+            <ul style={{ marginBottom: "0" }}>
+              <li>Главная</li>
+              <li>Прайс лист</li>
+
+              <div className="dropdown">
+                <li className="dropbtn">
+                  О нас <i className="fa-solid fa-angle-down"></i>
+                </li>
+                <div className="dropdown-content">
+                  <li>Описание</li>
+                  <li>FAQ</li>
+                  <li>Врачи </li>
+                  <li> Стационар</li>
+                  <li>Отзывы</li>
+                </div>
+              </div>
+
+              <div className="dropdown">
+                <li className="dropbtn">
+                  Услуги <i className="fa-solid fa-angle-down"></i>
+                </li>
+                <div className="dropdown-content">
+                  <li>Консультация</li>
+                  <li>Физиотерапия</li>
+                  <li>Хирургия </li>
+                  <li> Урология</li>
+                  <li>Андрология</li>
+                  <li>Анализы</li>
+                  <li>УЗД</li>
+                  <li>МСКТ</li>
+                  <li>Урогинекология</li>
+                  <li>Онкология</li>
+                  <li>Гинекология</li>
+                </div>
+              </div>
+
+              <li>Статьи</li>
+              <li>Акции</li>
+            </ul>
+          </navbar>
+        </header>
+      </div>
+
       {/* gamburer icon qo'yiladi */}
 
       <div className="searchInput">

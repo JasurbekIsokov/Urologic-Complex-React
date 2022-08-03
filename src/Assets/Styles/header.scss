@@ -173,6 +173,13 @@
   margin-left: -1rem;
 }
 
+.resHeader {
+  display: none;
+  // display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 // responsivdagi search input
 
 .searchInput {
@@ -208,4 +215,75 @@
       color: rgba(11, 48, 79, 0.2);
     }
   }
+}
+
+// /responsivdagi search input
+
+// gamburger icon
+
+// /gamburger icon
+
+// Responsive style
+
+// max-width: 1200
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    .navbar {
+      display: none;
+    }
+  }
+
+  .resHeader {
+    display: flex;
+  }
+
+  .resNavbar {
+    display: flex;
+    align-items: center;
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-right: 36px;
+
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0b304f;
+
+        i {
+          margin-left: 10px;
+        }
+
+        &:hover {
+          color: #12aadb;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// max-width: 992px
+
+@media only screen and (max-width: 992px) {
+}
+
+// max-width: 768px
+
+@media only screen and (max-width: 768px) {
+}
+
+// max-width: 576px
+
+@media only screen and (max-width: 576px) {
 }
