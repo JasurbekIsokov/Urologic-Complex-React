@@ -10,7 +10,6 @@ import Pochemu from "./Components/Pochemu";
 import OurServices from "./Components/OurServices";
 
 // style
-import "./Assets/Styles/index.scss";
 import "./Assets/Styles/footer.scss";
 import "./Assets/Styles/ucHomeVideo.scss";
 import "./Assets/Styles/blogCliniki.scss";
@@ -23,6 +22,8 @@ import "./Assets/Styles/gamburgerBtn.scss";
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
 import "./Assets/Fonts/Gilroy/Gilroy-Regular.ttf";
+
+import "./Assets/Styles/index.scss";
 
 function App() {
   return (

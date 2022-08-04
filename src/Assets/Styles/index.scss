@@ -1,12 +1,25 @@
 @font-face {
   font-family: "Gilroy";
-  src: url(../Fonts/Gilroy/Gilroy-Regular.ttf);
+  src: local("Gilroy"),
+    url(../Fonts/Gilroy/Gilroy-Medium.ttf) format("opentype");
+}
 
+@font-face {
+  font-family: "Gilroy-regular";
+  src: local("Gilroy"),
+    url(../Fonts/Gilroy/Gilroy-Regular.ttf) format("opentype");
+}
+
+@font-face {
   font-family: "Montserrat";
-  src: url(../Fonts/Montserrat/Montserrat-Regular.ttf);
+  src: local("Montserrat"),
+    url(../Fonts/Montserrat/Montserrat-Bold.ttf) format("opentype");
+}
 
+@font-face {
   font-family: "Poppins";
-  src: url(../Fonts/Poppins/Poppins-Thin.woff);
+  src: local("Poppins"),
+    url(../Fonts/Poppins/Poppins-Medium.woff) format("opentype");
 }
 
 body {

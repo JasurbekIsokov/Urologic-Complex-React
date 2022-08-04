@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "Gilroy";
-  src: url(../Fonts/Gilroy/Gilroy-Regular.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url(../Fonts/Montserrat/Montserrat-Bold.ttf);
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../Fonts/Poppins/Poppins-Thin.woff);
-}
-
 .footer-back {
   background-image: linear-gradient(90deg, #fff, rgba(#12aadb, 0.1));
 }
@@ -150,7 +135,7 @@
     }
 
     &--email {
-      font-family: sans-serif;
+      font-family: "Poppins";
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -173,8 +158,7 @@
   max-width: 1326px;
 
   &__title {
-    // font-family: "Gilroy";
-    font-family: sans-serif;
+    font-family: "Gilroy";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -188,8 +172,7 @@
     align-items: center;
 
     p {
-      // font-family: "Gilroy";
-      font-family: sans-serif;
+      font-family: "Gilroy";
       font-style: normal;
       font-weight: 500;
       font-size: 18px;
