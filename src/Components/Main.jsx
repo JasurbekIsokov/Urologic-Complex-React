@@ -10,41 +10,67 @@ import mainImg from "../Assets/Images/Main/main.svg";
 
 const Main = () => {
   return (
-    <div className="container">
-      <main className="main">
-        <div className="main__left">
-          <p className="main__left--date">Режим работы: 9.00 - 22.00</p>
-          <p className="main__left--title">
-            Медицинская клиника работает постоянно
-          </p>
-          <p className="main__left--description">
-            Медицинская клиника работает в постоянном контакте с лучшими врачами
-            всего мира Медицинская клиника работает в постоянном контакте
-          </p>
-          <div className="main__left--buttons">
-            <button className="main__left--buttons-left btn">Связаться</button>
-            <button className="main__left--buttons-right btn">
-              Узнать больше
-              <img src={mainBtnArrow} />
-            </button>
-          </div>
-        </div>
-
-        <div className="main__right">
-          <img src={mainImg} alt="main-picture" />
-          <div className="mainImgBack"></div>
-          <div className="mainBox">
-            <div className="mainBox__top">
-              <img src={ellipce1} alt="ellipce" className="ellipce ellipce-1" />
-              <img src={ellipce2} alt="ellipce" className="ellipce ellipce-2" />
-              <img src={ellipce3} alt="ellipce" className="ellipce ellipce-3" />
-              <img src={ellipce4} alt="ellipce" className="ellipce ellipce-4" />
-              <img src={ellipce5} alt="ellipce" className="ellipce ellipce-5" />
+    <div className="mainBack">
+      <div className="container">
+        <main className="main">
+          <div className="main__left">
+            <p className="main__left--date">Режим работы: 9.00 - 22.00</p>
+            <p className="main__left--title">
+              Медицинская <br /> клиника работает <br /> постоянно
+            </p>
+            <p className="main__left--description">
+              Медицинская клиника работает в постоянном контакте с лучшими
+              врачами всего мира Медицинская клиника работает в постоянном
+              контакте
+            </p>
+            <div className="main__left--buttons">
+              <button className="main__left--buttons-left btn">
+                Связаться
+              </button>
+              <button className="main__left--buttons-right btn">
+                Узнать больше
+                <img src={mainBtnArrow} />
+              </button>
             </div>
-            <p>105 + пациенты</p>
           </div>
-        </div>
-      </main>
+
+          <div className="main__right">
+            <img src={mainImg} alt="main-picture" className="main-picture" />
+            <div className="mainImgBack"></div>
+            <div className="mainBox">
+              <div className="mainBox__top">
+                <img
+                  src={ellipce1}
+                  alt="ellipce"
+                  className="ellipce ellipce-1"
+                />
+                <img
+                  src={ellipce2}
+                  alt="ellipce"
+                  className="ellipce ellipce-2"
+                />
+                <img
+                  src={ellipce3}
+                  alt="ellipce"
+                  className="ellipce ellipce-3"
+                />
+                <img
+                  src={ellipce4}
+                  alt="ellipce"
+                  className="ellipce ellipce-4"
+                />
+                <img
+                  src={ellipce5}
+                  alt="ellipce"
+                  className="ellipce ellipce-5"
+                />
+                <p className="ellipce ellipce-6">45+</p>
+              </div>
+              <p className="mainBox__bottom">105 + пациенты</p>
+            </div>
+          </div>
+        </main>
+      </div>
     </div>
   );
 };
