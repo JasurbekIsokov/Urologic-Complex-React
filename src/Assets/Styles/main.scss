@@ -401,6 +401,12 @@
 // max-width: 992px
 
 @media only screen and (max-width: 992px) {
+  .main {
+    grid-template-columns: auto;
+    &__right {
+      display: none;
+    }
+  }
 }
 
 // max-width: 768px
