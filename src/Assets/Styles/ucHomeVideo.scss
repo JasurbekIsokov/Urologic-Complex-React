@@ -166,7 +166,7 @@
 
   .ucHomeVideo {
     margin: 20px auto 15px auto;
-    padding: 1.5rem;
+    padding: 1rem;
 
     &__left {
       padding: 0;
@@ -198,6 +198,7 @@
         height: 150px;
         margin: 1rem 0;
         padding: 0;
+        margin-left: -5px;
       }
     }
   }
