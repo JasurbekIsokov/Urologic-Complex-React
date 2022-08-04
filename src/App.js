@@ -8,6 +8,7 @@ import BlogCliniki from "./Components/BlogCliniki";
 import Rabota from "./Components/Rabota";
 import Pochemu from "./Components/Pochemu";
 import OurServices from "./Components/OurServices";
+import Main from "./Components/Main";
 
 // style
 import "./Assets/Styles/footer.scss";
@@ -18,6 +19,7 @@ import "./Assets/Styles/pochemu.scss";
 import "./Assets/Styles/OurServices.scss";
 import "./Assets/Styles/header.scss";
 import "./Assets/Styles/gamburgerBtn.scss";
+import "./Assets/Styles/main.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
@@ -29,6 +31,7 @@ function App() {
   return (
     <>
       <Header />
+      <Main />
       <Rabota />
       <Pochemu />
       <OurServices />
