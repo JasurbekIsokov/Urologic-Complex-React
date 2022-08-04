@@ -108,3 +108,47 @@
     }
   }
 }
+
+// max-width: 1300
+
+@media only screen and (max-width: 1300px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 6rem;
+
+    &__left {
+      &--description {
+        padding: 0;
+      }
+    }
+
+    &__right {
+      display: none;
+    }
+  }
+}
+
+// max-width: 1200
+
+@media only screen and (max-width: 1200px) {
+  //
+}
+
+// max-width: 992px
+
+@media only screen and (max-width: 992px) {
+  //
+}
+
+// max-width: 768px
+
+@media only screen and (max-width: 768px) {
+  // Shu yerdan boshlab yozaman
+}
+
+// max-width: 576px
+
+@media only screen and (max-width: 576px) {
+}
