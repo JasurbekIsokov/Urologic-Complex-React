@@ -234,3 +234,181 @@
     }
   }
 }
+
+//  min-width: 1450px
+
+@media only screen and (min-width: 1450px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 101%;
+        left: 138px;
+      }
+
+      .mainBox {
+        left: 390px;
+      }
+    }
+  }
+}
+
+//  min-width: 1550px
+
+@media only screen and (min-width: 1550px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 101%;
+        left: 148px;
+      }
+
+      .mainBox {
+        left: 410px;
+      }
+    }
+  }
+}
+
+//  min-width: 1600px
+
+@media only screen and (min-width: 1600px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 101%;
+        left: 155px;
+      }
+
+      .mainBox {
+        left: 410px;
+      }
+    }
+  }
+}
+
+//  min-width: 1700px
+
+@media only screen and (min-width: 1700px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 105%;
+        left: 155px;
+      }
+
+      .mainBox {
+        left: 450px;
+      }
+    }
+  }
+}
+
+//  min-width: 1750px
+
+@media only screen and (min-width: 1750px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 108.5%;
+      }
+    }
+  }
+}
+
+//  min-width: 1800px
+
+@media only screen and (min-width: 1800px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 112%;
+      }
+    }
+  }
+}
+
+//  min-width: 1850px
+
+@media only screen and (min-width: 1850px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 116%;
+      }
+    }
+  }
+}
+
+//  min-width: 1900px
+
+@media only screen and (min-width: 1900px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 120%;
+      }
+    }
+  }
+}
+
+//  min-width: 1950px
+
+@media only screen and (min-width: 1950px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 124%;
+      }
+    }
+  }
+}
+
+//  min-width: 2000px
+
+@media only screen and (min-width: 2000px) {
+  .main {
+    &__right {
+      .mainImgBack {
+        width: 128%;
+      }
+    }
+  }
+}
+// max-width: 1200
+
+@media only screen and (max-width: 1200px) {
+  .main {
+    &__right {
+      img.main-picture {
+        width: 350px;
+        height: 550px;
+      }
+
+      .mainImgBack {
+        width: 100%;
+      }
+
+      .mainBox {
+        padding: 1.8rem 1rem;
+        left: 250px;
+        top: 340px;
+        height: 160px;
+      }
+    }
+  }
+}
+
+// max-width: 992px
+
+@media only screen and (max-width: 992px) {
+}
+
+// max-width: 768px
+
+@media only screen and (max-width: 768px) {
+}
+
+// max-width: 576px
+
+@media only screen and (max-width: 576px) {
+}
