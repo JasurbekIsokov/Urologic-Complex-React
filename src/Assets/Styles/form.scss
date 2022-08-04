@@ -25,6 +25,7 @@
   }
 
   &__left {
+    max-width: 552px;
     z-index: 2;
     &--title {
       font-family: "Gilroy";
@@ -90,18 +91,20 @@
   }
 
   &__right {
-    padding-top: 20px;
-    img {
-      position: absolute;
-      top: -65px;
-      right: 0;
-    }
     &--back {
+      margin-top: 20px;
+      position: relative;
       width: 422px;
       height: 320px;
 
       background: #ffffff;
       border-radius: 160px 0 0 160px;
+
+      img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
     }
   }
 }

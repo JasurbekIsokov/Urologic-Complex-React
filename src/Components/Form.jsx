@@ -28,8 +28,9 @@ const Form = () => {
           </form>
         </div>
         <div className="form__right">
-          <img src={formImg} alt="picture" />
-          <div className="form__right--back"></div>
+          <div className="form__right--back">
+            <img src={formImg} alt="picture" />
+          </div>
         </div>
       </section>
     </div>
