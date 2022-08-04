@@ -1,0 +1,107 @@
+.form {
+  max-width: 1326px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  position: relative;
+
+  margin-top: 7rem;
+  margin-bottom: 3.5rem;
+  padding: 4rem 0 6rem 4rem;
+  background: #e5f6fc;
+  border-radius: 32px;
+
+  .element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .element2 {
+    top: 74%;
+  }
+
+  &__left {
+    z-index: 2;
+    &--title {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 140%;
+      color: #0b304f;
+    }
+
+    &--description {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 160%;
+      color: #2b4b65;
+      margin: 1rem 0 1.5rem 0;
+      padding-right: 3rem;
+    }
+
+    &--form {
+      display: grid;
+      grid-template-columns: auto auto;
+
+      input {
+        width: 264px;
+        height: 58px;
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 1rem;
+
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #afb7bf;
+
+        outline: none;
+        border: none;
+
+        margin: 0 1.5rem 1.5rem 0;
+      }
+
+      button {
+        width: 264px;
+        height: 58px;
+        padding: 18px;
+        background: #12aadb;
+        border-radius: 16px;
+
+        font-family: "Gilroy-regular";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #ffffff;
+
+        border: none;
+      }
+    }
+  }
+
+  &__right {
+    padding-top: 20px;
+    img {
+      position: absolute;
+      top: -65px;
+      right: 0;
+    }
+    &--back {
+      width: 422px;
+      height: 320px;
+
+      background: #ffffff;
+      border-radius: 160px 0 0 160px;
+    }
+  }
+}

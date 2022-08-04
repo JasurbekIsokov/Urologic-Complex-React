@@ -9,6 +9,7 @@ import Rabota from "./Components/Rabota";
 import Pochemu from "./Components/Pochemu";
 import OurServices from "./Components/OurServices";
 import Main from "./Components/Main";
+import Form from "./Components/Form.jsx";
 
 // style
 import "./Assets/Styles/footer.scss";
@@ -20,6 +21,7 @@ import "./Assets/Styles/OurServices.scss";
 import "./Assets/Styles/header.scss";
 import "./Assets/Styles/gamburgerBtn.scss";
 import "./Assets/Styles/main.scss";
+import "./Assets/Styles/form.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
@@ -30,14 +32,15 @@ import "./Assets/Styles/index.scss";
 function App() {
   return (
     <>
-      <Header />
+      <Form />
+      {/* <Header />
       <Main />
       <Rabota />
       <Pochemu />
       <OurServices />
       <UcHomeVideo />
       <BlogCliniki />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
