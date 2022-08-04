@@ -2,7 +2,6 @@ import React from "react";
 
 import logo from "../Assets/Images/Header/header-logo.svg";
 import search from "../Assets/Images/Header/search.svg";
-import searchRes from "../Assets/Images/Header/search-res.svg";
 import uzFlag from "../Assets/Images/Header/uz-flag.svg";
 import ruFlag from "../Assets/Images/Header/ru-flag.svg";
 
@@ -139,15 +138,6 @@ const Header = () => {
             </navbar>
           </header>
         </div>
-
-        {/* <div className="searchInput">
-          <img src={searchRes} alt="search icon" />
-          <input
-            type="text"
-            className="searchRes"
-            placeholder="Введите запрос"
-          />
-        </div> */}
       </div>
     </div>
   );

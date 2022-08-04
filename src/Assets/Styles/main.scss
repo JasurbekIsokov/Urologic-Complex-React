@@ -412,6 +412,18 @@
 // max-width: 768px
 
 @media only screen and (max-width: 768px) {
+  .main {
+    &__left {
+      &--date {
+        display: none;
+      }
+
+      &--title {
+        font-size: 40px;
+        margin-top: 1rem;
+      }
+    }
+  }
 }
 
 // max-width: 576px

@@ -8,10 +8,21 @@ import ellipce4 from "../Assets/Images/Main/ellipce-4.svg";
 import ellipce5 from "../Assets/Images/Main/ellipce-5.svg";
 import mainImg from "../Assets/Images/Main/main.svg";
 
+import searchRes from "../Assets/Images/Header/search-res.svg";
+
 const Main = () => {
   return (
     <div className="mainBack">
       <div className="container">
+        <div className="searchInput">
+          <img src={searchRes} alt="search icon" />
+          <input
+            type="text"
+            className="searchRes"
+            placeholder="Введите запрос"
+          />
+        </div>
+
         <main className="main">
           <div className="main__left">
             <p className="main__left--date">Режим работы: 9.00 - 22.00</p>
