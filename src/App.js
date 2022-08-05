@@ -10,6 +10,7 @@ import Pochemu from "./Components/Pochemu";
 import OurServices from "./Components/OurServices";
 import Main from "./Components/Main";
 import Form from "./Components/Form.jsx";
+import CarouselComponent from "./Components/Corusel.jsx";
 
 // style
 import "./Assets/Styles/footer.scss";
@@ -22,6 +23,7 @@ import "./Assets/Styles/header.scss";
 import "./Assets/Styles/gamburgerBtn.scss";
 import "./Assets/Styles/main.scss";
 import "./Assets/Styles/form.scss";
+import "./Assets/Styles/corusel.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
@@ -32,7 +34,8 @@ import "./Assets/Styles/index.scss";
 function App() {
   return (
     <>
-      <Form />
+      <CarouselComponent />
+      {/* <Form /> */}
       {/* <Header />
       <Main />
       <Rabota />

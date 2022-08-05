@@ -1,0 +1,39 @@
+.caruselComponent__top {
+  max-width: 1326px;
+  margin: 0 auto;
+
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &--title {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: #0b304f;
+  }
+
+  &--right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8rem;
+
+    img {
+      background: #12aadb;
+      padding: 18px 21px;
+      border-radius: 100px;
+      cursor: pointer;
+    }
+  }
+}
+
+.caruselComponent {
+  max-width: 1326px;
+  margin: 0 auto;
+
+  margin-top: 1.5rem;
+}
