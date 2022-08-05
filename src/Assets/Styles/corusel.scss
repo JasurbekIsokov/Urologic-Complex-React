@@ -39,7 +39,7 @@
   margin-top: 1.5rem;
   margin-bottom: 1.75rem;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5rem;
 
   &__box {
@@ -51,14 +51,27 @@
     align-items: flex-start;
 
     &--img {
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      height: 232px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 16px;
+    }
 
-      img {
-        width: 295px;
-        height: 215px;
-      }
+    &--img1 {
+      background-image: url(../Images/Corusel/carusel-img-1.svg);
+    }
+
+    &--img2 {
+      background-image: url(../Images/Corusel/carusel-img-2.svg);
+    }
+
+    &--img3 {
+      background-image: url(../Images/Corusel/carusel-img-3.svg);
     }
 
     &--title {
@@ -134,5 +147,53 @@
     font-size: 16px;
     line-height: 150%;
     color: #ffffff;
+  }
+}
+
+// min-width: 1426px
+
+@media only screen and (min-width: 1426px) {
+  .caruselComponent {
+    &__box {
+      &--img {
+        height: 236px;
+      }
+    }
+  }
+}
+
+// min-width: 1526px
+
+@media only screen and (min-width: 1526px) {
+  .caruselComponent {
+    &__box {
+      &--img {
+        height: 246px;
+      }
+    }
+  }
+}
+
+// min-width: 1626px
+
+@media only screen and (min-width: 1626px) {
+  .caruselComponent {
+    &__box {
+      &--img {
+        height: 256px;
+      }
+    }
+  }
+}
+
+// min-width: 1726px
+
+@media only screen and (min-width: 1726px) {
+  .caruselComponent {
+    &__box {
+      &--img {
+        height: 266px;
+      }
+    }
   }
 }

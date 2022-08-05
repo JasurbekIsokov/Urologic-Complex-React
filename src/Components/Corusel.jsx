@@ -28,9 +28,7 @@ const CarouselComponent = () => {
 
       <section className="caruselComponent">
         <div className="caruselComponent__box">
-          <div className="caruselComponent__box--img">
-            <img src={coruselImg1} alt="Наши врачи" />
-          </div>
+          <div className="caruselComponent__box--img caruselComponent__box--img1"></div>
           <p className="caruselComponent__box--title">
             Рахмонов Ойбек Мухаммадмуйдинович
           </p>
@@ -45,9 +43,7 @@ const CarouselComponent = () => {
         </div>
 
         <div className="caruselComponent__box">
-          <div className="caruselComponent__box--img">
-            <img src={coruselImg2} alt="Наши врачи" />
-          </div>
+          <div className="caruselComponent__box--img caruselComponent__box--img2"></div>
           <p className="caruselComponent__box--title">
             Нуралиев Тельман Юлдашбаевич
           </p>
@@ -62,9 +58,7 @@ const CarouselComponent = () => {
         </div>
 
         <div className="caruselComponent__box">
-          <div className="caruselComponent__box--img">
-            <img src={coruselImg3} alt="Наши врачи" />
-          </div>
+          <div className="caruselComponent__box--img caruselComponent__box--img3"></div>
           <p className="caruselComponent__box--title">
             Абдуллаев Дилмурод Абдумухтарович
           </p>
