@@ -145,7 +145,29 @@
 // max-width: 768px
 
 @media only screen and (max-width: 768px) {
-  // Shu yerdan boshlab yozaman
+  .form {
+    text-align: left;
+    padding: 2rem;
+    &__left {
+      &--title {
+        font-size: 36px;
+      }
+
+      &--description {
+        padding: 0;
+        font-size: 22px;
+      }
+
+      &--form {
+        grid-template-columns: auto;
+
+        input,
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 // max-width: 576px

@@ -35,11 +35,11 @@ function App() {
   return (
     <>
       <CarouselComponent />
-      {/* <Form /> */}
+      <Form />
+      <Pochemu />
+      <Rabota />
       {/* <Header />
       <Main />
-      <Rabota />
-      <Pochemu />
       <OurServices />
       <UcHomeVideo />
       <BlogCliniki />
