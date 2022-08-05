@@ -1,18 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Header from "./Layouts/Header.jsx";
-import Footer from "./Layouts/Footer";
-import UcHomeVideo from "./Components/UcHomeVideo";
-import BlogCliniki from "./Components/BlogCliniki";
-import Rabota from "./Components/Rabota";
-import Pochemu from "./Components/Pochemu";
-import OurServices from "./Components/OurServices";
-import Main from "./Components/Main";
-import Form from "./Components/Form.jsx";
-import CarouselComponent from "./Components/Corusel.jsx";
-import GlobalArrow from "./Components/GlobalArrow.jsx";
-
 // style
 import "./Assets/Styles/footer.scss";
 import "./Assets/Styles/ucHomeVideo.scss";
@@ -33,23 +21,40 @@ import "./Assets/Fonts/Gilroy/Gilroy-Regular.ttf";
 
 import "./Assets/Styles/index.scss";
 
+// Pages
+
+import "./Assets/Styles/homePage.scss";
+
+import Home from "./Pages/Home";
+import Price from "./Pages/Price";
+import Services from "./Pages/Services";
+import AboutUsDescription from "./Pages/AboutUsDescription";
+import Faq from "./Pages/Faq";
+import Doctors from "./Pages/Doctors";
+import Hospital from "./Pages/Hospital";
+import Reviews from "./Pages/Reviews";
+import Articles from "./Pages/Articles";
+import Stock from "./Pages/Stock";
+
 function App() {
   return (
-    <>
-      <Header />
-      <Main />
-      <CarouselComponent />
-      <Form />
-      <Pochemu />
-      <Rabota />
-      <GlobalArrow />
-      <Footer />
-      {/* 
-      <OurServices />
-      <UcHomeVideo />
-      <BlogCliniki />
-     */}
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/price" element={<Price />}></Route>
+
+        <Route path="/services" element={<Services />}></Route>
+        <Route path="/aboutUs" element={<AboutUsDescription />}></Route>
+        <Route path="/faq" element={<Faq />}></Route>
+        <Route path="/doctors" element={<Doctors />}></Route>
+        <Route path="/hospital" element={<Hospital />}></Route>
+        <Route path="/reviews" element={<Reviews />}></Route>
+
+        <Route path="/articles" element={<Articles />}></Route>
+
+        <Route path="/stock" element={<Stock />}></Route>
+      </Routes>
+    </Router>
   );
 }
 
