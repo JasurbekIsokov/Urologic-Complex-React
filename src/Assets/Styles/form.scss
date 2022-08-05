@@ -173,4 +173,49 @@
 // max-width: 576px
 
 @media only screen and (max-width: 576px) {
+  .form {
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    padding: 14px 1.5rem;
+
+    &__left {
+      &--title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+
+        margin-bottom: 4px;
+      }
+
+      &--description {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 160%;
+        margin-bottom: 1rem;
+        margin-top: 4px;
+      }
+
+      &--form {
+        grid-template-columns: auto;
+
+        input {
+          padding: 1rem;
+
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 160%;
+
+          height: 52px;
+        }
+
+        button {
+          height: 52px;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 160%;
+          padding: 15px 0;
+        }
+      }
+    }
+  }
 }
