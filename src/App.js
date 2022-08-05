@@ -11,6 +11,7 @@ import OurServices from "./Components/OurServices";
 import Main from "./Components/Main";
 import Form from "./Components/Form.jsx";
 import CarouselComponent from "./Components/Corusel.jsx";
+import GlobalArrow from "./Components/GlobalArrow.jsx";
 
 // style
 import "./Assets/Styles/footer.scss";
@@ -24,6 +25,7 @@ import "./Assets/Styles/gamburgerBtn.scss";
 import "./Assets/Styles/main.scss";
 import "./Assets/Styles/form.scss";
 import "./Assets/Styles/corusel.scss";
+import "./Assets/Styles/globalArrow.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
@@ -34,16 +36,19 @@ import "./Assets/Styles/index.scss";
 function App() {
   return (
     <>
+      <Header />
+      <Main />
       <CarouselComponent />
       <Form />
       <Pochemu />
       <Rabota />
-      {/* <Header />
-      <Main />
+      <GlobalArrow />
+      <Footer />
+      {/* 
       <OurServices />
       <UcHomeVideo />
       <BlogCliniki />
-      <Footer /> */}
+     */}
     </>
   );
 }

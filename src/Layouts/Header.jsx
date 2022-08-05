@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="header-back">
       <div className="container">
-        <header className="header">
+        <header className="header" id="header">
           <div className="header__left">
             <img src={logo} alt="logo" />
             <p style={{ marginBottom: "0" }} className="header__left--logoName">

@@ -23,7 +23,7 @@ const Main = () => {
           />
         </div>
 
-        <main className="main">
+        <main className="main" id="main">
           <div className="main__left">
             <p className="main__left--date">Режим работы: 9.00 - 22.00</p>
             <p className="main__left--title">
