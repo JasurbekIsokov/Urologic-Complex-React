@@ -31,14 +31,14 @@ const CarouselComponent = () => {
           <div className="caruselComponent__box--img">
             <img src={coruselImg1} alt="Наши врачи" />
           </div>
-          <p className="caruselComponent__box-title">
+          <p className="caruselComponent__box--title">
             Рахмонов Ойбек Мухаммадмуйдинович
           </p>
           <p className="caruselComponent__box--description">
             Главный врач. Уролог высшей квалификации. 26 лет опыта в области
             урологии
           </p>
-          <button className="caruselComponent__box--button">
+          <button className="btn caruselComponent__box--button">
             Подробнее
             <img src={coruselArrow} />
           </button>
@@ -48,14 +48,14 @@ const CarouselComponent = () => {
           <div className="caruselComponent__box--img">
             <img src={coruselImg2} alt="Наши врачи" />
           </div>
-          <p className="caruselComponent__box-title">
+          <p className="caruselComponent__box--title">
             Нуралиев Тельман Юлдашбаевич
           </p>
           <p className="caruselComponent__box--description">
             Врач первой категории. Уролог. высшей квалификации. 18 лет опыта в
             области урологии.
           </p>
-          <button className="caruselComponent__box--button">
+          <button className="btn caruselComponent__box--button">
             Подробнее
             <img src={coruselArrow} />
           </button>
@@ -65,18 +65,22 @@ const CarouselComponent = () => {
           <div className="caruselComponent__box--img">
             <img src={coruselImg3} alt="Наши врачи" />
           </div>
-          <p className="caruselComponent__box-title">
+          <p className="caruselComponent__box--title">
             Абдуллаев Дилмурод Абдумухтарович
           </p>
           <p className="caruselComponent__box--description">
             Врач высшей категории. Эндоуролог 17 лет опыта в области урологии.
           </p>
-          <button className="caruselComponent__box--button">
+          <button className="btn caruselComponent__box--button">
             Подробнее
             <img src={coruselArrow} />
           </button>
         </div>
       </section>
+
+      <div className="caruselComponent__bottom">
+        <button className="btn">Все врачи</button>
+      </div>
     </div>
   );
 };
