@@ -14,6 +14,7 @@ import "./Assets/Styles/main.scss";
 import "./Assets/Styles/form.scss";
 import "./Assets/Styles/corusel.scss";
 import "./Assets/Styles/globalArrow.scss";
+import "./Assets/Styles/priceMain.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";

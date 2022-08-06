@@ -1,0 +1,34 @@
+.priceMain-top {
+  max-width: 1326px;
+  margin: 0 auto;
+
+  margin-top: 0.35625rem;
+  margin-bottom: 2.3125rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #0b304f;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: end;
+    padding-left: 14%;
+    p {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 160%;
+      color: #2b4b65;
+    }
+  }
+}

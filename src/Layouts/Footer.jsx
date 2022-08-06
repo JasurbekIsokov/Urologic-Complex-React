@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../Assets/Images/Footer/footer-logo.svg";
 import facebook from "../Assets/Images/Footer/facebook.svg";
@@ -35,7 +36,9 @@ const Footer = () => {
 
           <ul className="footer__leftMidle">
             <li>О нас</li>
-            <li>Описание </li>
+            <li>
+              <Link to="/aboutUs">Описание</Link>
+            </li>
             <li>Наши</li>
             <li>Лицензии</li>
             <li>Стационар </li>
