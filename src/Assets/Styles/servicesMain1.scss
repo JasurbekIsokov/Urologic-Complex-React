@@ -1,0 +1,163 @@
+.servicesMain {
+  max-width: 1326px;
+  margin: 0 auto;
+  margin-top: 4.5rem;
+  margin-bottom: 89px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  &__left {
+    &--head {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 1.5rem;
+      align-items: center;
+
+      p {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 140%;
+        color: #0b304f;
+
+        margin-left: 1.5rem;
+      }
+    }
+
+    &--description {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #8394a2;
+      margin-bottom: 0.5rem;
+
+      padding-right: 2rem;
+    }
+
+    ul {
+      margin: 0.5rem 0;
+      list-style: none;
+      li {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #8394a2;
+      }
+    }
+
+    ul li::before {
+      content: "\2022";
+      color: #ffb201;
+      font-weight: bold;
+      display: inline-block;
+      width: 1rem;
+      transform: scale(1.4);
+    }
+
+    &--paragraph {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #8394a2;
+      margin-bottom: 0.5rem;
+      padding-right: 2rem;
+    }
+  }
+
+  &__right {
+    position: absolute;
+    right: 0;
+
+    max-width: 650px;
+  }
+}
+
+// max-width: 1270px
+
+@media only screen and (max-width: 1270px) {
+  .servicesMain {
+    &__left {
+      &--head {
+        p {
+          margin-left: 1.5rem;
+        }
+      }
+
+      &--description {
+        padding-right: 1rem;
+      }
+
+      &--paragraph {
+        margin-bottom: 0.5rem;
+        padding-right: 1rem;
+      }
+    }
+
+    &__right {
+      position: absolute;
+      right: 0;
+
+      max-width: 600px;
+      margin-top: 2rem;
+    }
+  }
+}
+
+// max-width: 1200px
+
+@media only screen and (max-width: 1200px) {
+  .servicesMain {
+    &__left {
+      &--description {
+        padding-right: 1rem;
+      }
+    }
+
+    &__right {
+      max-width: 550px;
+      margin-top: 5rem;
+    }
+  }
+}
+
+// max-width: 1100px
+
+@media only screen and (max-width: 1100px) {
+  .servicesMain {
+    &__left {
+      &--description {
+        padding-right: 1rem;
+      }
+    }
+
+    &__right {
+      max-width: 500px;
+      margin-top: 6rem;
+    }
+  }
+}
+
+// max-width: 1100px
+
+@media only screen and (max-width: 1100px) {
+  .servicesMain {
+    &__left {
+      &--description {
+        padding-right: 1rem;
+      }
+    }
+
+    &__right {
+      max-width: 500px;
+      margin-top: 6rem;
+    }
+  }
+}
