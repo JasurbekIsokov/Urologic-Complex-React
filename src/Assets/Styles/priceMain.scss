@@ -209,6 +209,7 @@
 
   &__left {
     width: 264px;
+    height: 10px;
     margin-right: 2rem;
   }
 
@@ -218,16 +219,16 @@
     text-align: center;
 
     p {
+      width: 100%;
       font-family: "Gilroy";
       font-style: normal;
       font-weight: 500;
       font-size: 20px;
       line-height: 24px;
       color: #12aadb;
-
+      text-align: center;
       padding: 7px;
-
-      // border-bottom: ;
+      border-bottom: 1px solid #31b2dc;
     }
   }
 }
@@ -286,6 +287,23 @@
       display: none;
     }
   }
+
+  .priceMain-bottom {
+    justify-content: center;
+
+    &__left {
+      display: none;
+    }
+
+    &__right {
+      justify-content: center;
+      text-align: center;
+      p {
+        text-align: left;
+        padding-left: 0;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -340,6 +358,20 @@
     &__left {
       width: 100%;
       display: inline-block;
+
+      &--title {
+        width: 100%;
+      }
+    }
+  }
+
+  .priceMain-bottom {
+    &__right {
+      p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 140%;
+      }
     }
   }
 }

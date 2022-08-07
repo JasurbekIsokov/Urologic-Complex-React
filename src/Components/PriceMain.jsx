@@ -192,7 +192,7 @@ const PriceMain = () => {
         </div>
       </section>
       <div className="priceMain-bottom">
-        <div className="priceMian-bottom__left"></div>
+        <div className="priceMain-bottom__left"></div>
         <div className="priceMain-bottom__right">
           <p> *Для нерезидентов РУз применятся 20% наценка на услуги</p>
         </div>
