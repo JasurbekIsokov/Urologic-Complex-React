@@ -22,10 +22,15 @@ const Header = () => {
           <navbar className="navbar">
             <ul style={{ marginBottom: "0" }}>
               <li>
-                <Link to="/">Главная</Link>
+                <Link className="navbarLink" to="/">
+                  Главная
+                </Link>
               </li>
               <li>
-                <Link to="/price"> Прайс лист</Link>
+                <Link className="navbarLink" to="/price">
+                  {" "}
+                  Прайс лист
+                </Link>
               </li>
 
               <div className="dropdown">
@@ -34,19 +39,29 @@ const Header = () => {
                 </li>
                 <div className="dropdown-content">
                   <li>
-                    <Link to="/aboutUs">Описание</Link>
+                    <Link className="navbarLink" to="/aboutUs">
+                      Описание
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/faq">FAQ</Link>
+                    <Link className="navbarLink" to="/faq">
+                      FAQ
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/doctors">Врачи</Link>
+                    <Link className="navbarLink" to="/doctors">
+                      Врачи
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/hospital">Стационар</Link>
+                    <Link className="navbarLink" to="/hospital">
+                      Стационар
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/reviews">Отзывы</Link>
+                    <Link className="navbarLink" to="/reviews">
+                      Отзывы
+                    </Link>
                   </li>
                 </div>
               </div>
@@ -71,9 +86,15 @@ const Header = () => {
               </div>
 
               <li>
-                <Link to="/articles">Статьи</Link>
+                <Link className="navbarLink" to="/articles">
+                  Статьи
+                </Link>
               </li>
-              <li><Link to="/stock">Акции</Link></li>
+              <li>
+                <Link className="navbarLink" to="/stock">
+                  Акции
+                </Link>
+              </li>
             </ul>
           </navbar>
 

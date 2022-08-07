@@ -199,6 +199,39 @@
   }
 }
 
+.priceMain-bottom {
+  max-width: 1326px;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 36px;
+  margin-bottom: 127px;
+
+  &__left {
+    width: 264px;
+    margin-right: 2rem;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    p {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #12aadb;
+
+      padding: 7px;
+
+      // border-bottom: ;
+    }
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .priceMain-top {
     justify-content: center;

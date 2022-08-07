@@ -1,6 +1,5 @@
 .header-back {
   background: linear-gradient(rgba(#e5f6fc, 0.9), #fff);
-  // position: sticky;
   // width: 98.75vw;
   // margin-top: -1.3%;
   box-sizing: border-box;
@@ -54,14 +53,30 @@
         font-size: 16px;
         line-height: 160%;
         color: #0b304f;
-
-        i {
-          margin-left: 10px;
-        }
+        text-decoration: none;
 
         &:hover {
           color: #12aadb;
           cursor: pointer;
+        }
+
+        .navbarLink {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 160%;
+          color: #0b304f;
+          text-decoration: none;
+
+          &:hover {
+            color: #12aadb;
+            cursor: pointer;
+          }
+        }
+
+        i {
+          margin-left: 10px;
         }
       }
     }
