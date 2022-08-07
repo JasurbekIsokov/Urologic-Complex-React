@@ -19,9 +19,9 @@ const Form = () => {
           </p>
 
           <form className="form__left--form">
-            <input type="text" placeholder="Ваше имя" />
-            <input type="text" placeholder="Ваше фамилия" />
-            <input type="number" placeholder="Номер телефона" />
+            <input type="text" placeholder="Ваше имя" required />
+            <input type="text" placeholder="Ваше фамилия" required />
+            <input type="number" placeholder="Номер телефона" required />
             <button className="btn form__left--form-btn">
               Заказать звонок
             </button>
