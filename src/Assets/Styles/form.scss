@@ -178,6 +178,10 @@
     margin-bottom: 2rem;
     padding: 14px 1.5rem;
 
+    .element {
+      display: none;
+    }
+
     &__left {
       &--title {
         font-weight: 700;
