@@ -6,6 +6,7 @@ import ServicesMain2 from "../Components/ServicesMain2";
 import Form from "../Components/Form.jsx";
 import GlobalArrow from "../Components/GlobalArrow.jsx";
 import Footer from "../Layouts/Footer";
+import Galareya from "../Components/Galareya";
 
 const Services = () => {
   return (
@@ -13,6 +14,7 @@ const Services = () => {
       <Header />
       <ServicesMain1 />
       <ServicesMain2 />
+      <Galareya />
       <Form />
       <GlobalArrow />
       <Footer />

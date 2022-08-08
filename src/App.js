@@ -17,6 +17,7 @@ import "./Assets/Styles/globalArrow.scss";
 import "./Assets/Styles/priceMain.scss";
 import "./Assets/Styles/servicesMain1.scss";
 import "./Assets/Styles/servicesMain2.scss";
+import "./Assets/Styles/galareya.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
