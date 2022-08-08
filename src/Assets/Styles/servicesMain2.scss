@@ -1,0 +1,68 @@
+.services_section2 {
+  max-width: 1326px;
+  margin: 0 auto;
+  margin-top: 89px;
+  margin-bottom: 120px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  &__left {
+    position: absolute;
+    left: 0;
+    max-width: 650px;
+  }
+
+  &__right {
+    margin-left: 2rem;
+    &--title {
+      margin: 10px 0;
+    }
+
+    &--title1 {
+      margin: 8px 0;
+    }
+
+    &--title,
+    &--title-1 {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 150%;
+      color: #0b304f;
+    }
+
+    &--description {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #8394a2;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      margin: 0.5rem 0;
+      list-style: none;
+      li {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #8394a2;
+      }
+    }
+
+    ul li::before {
+      content: "\2022";
+      color: #ffb201;
+      font-weight: bold;
+      display: inline-block;
+      width: 1rem;
+      transform: scale(1.4);
+    }
+  }
+}
