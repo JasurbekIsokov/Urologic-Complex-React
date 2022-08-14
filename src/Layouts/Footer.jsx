@@ -39,10 +39,18 @@ const Footer = () => {
             <li>
               <Link to="/aboutUs">Описание</Link>
             </li>
-            <li>Наши</li>
-            <li>Лицензии</li>
-            <li>Стационар </li>
-            <li>FAQ</li>
+            <li>
+              <Link to="/">Наши</Link>
+            </li>
+            <li>
+              <Link to="/">Лицензии</Link>
+            </li>
+            <li>
+              <Link to="/">Стационар</Link>
+            </li>
+            <li>
+              <Link to="/">FAQ</Link>
+            </li>
           </ul>
 
           <ul className="footer__rightMidle">
