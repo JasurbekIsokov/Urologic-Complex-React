@@ -16,6 +16,8 @@ const GamburderBtn = () => {
   const [test, setTest] = useState("none");
   const [img, setImg] = useState(true);
 
+  // mobile page uchun headerni moslashtiradi va undagi
+  // gamburger buttonning ko'rinishini o'zgartiradi
   const myFunction = () => {
     if (test === "block") {
       setTest("none");
