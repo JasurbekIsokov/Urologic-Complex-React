@@ -19,6 +19,7 @@ import "./Assets/Styles/servicesMain1.scss";
 import "./Assets/Styles/servicesMain2.scss";
 import "./Assets/Styles/galareya.scss";
 import "./Assets/Styles/articlesBlogCliniki.scss";
+import "./Assets/Styles/articlesSingleMain.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";

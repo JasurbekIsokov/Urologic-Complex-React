@@ -1,0 +1,101 @@
+.articlesSingleMainContainer {
+  max-width: 1326px;
+  margin: auto auto;
+}
+
+.articlesSingleMain {
+  width: 68%;
+  margin: 0 auto;
+  margin-top: 72px;
+  margin-bottom: 112px;
+
+  &__title {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: #0b304f;
+    margin-bottom: 1rem;
+  }
+
+  &__date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+    &--year {
+      margin-right: 2rem;
+    }
+
+    &--year,
+    &--hours {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: #afb7bf;
+    }
+
+    &--hours {
+      margin-left: 8px;
+    }
+  }
+
+  &__description {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #576f83;
+    margin-bottom: 1.5rem;
+  }
+
+  &__img1 {
+    background-image: url(../Images//ArticlesSinge/articleSingle.svg);
+    width: 100%;
+    height: 452px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+    margin-bottom: 40px;
+  }
+
+  &__title2 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0b304f;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    margin: 0 0 1.5rem 1rem;
+    li {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #576f83;
+    }
+  }
+
+  &__img2 {
+    background-image: url(../Images//ArticlesSinge/articleSingle2.svg);
+    width: 100%;
+    height: 452px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+    margin-bottom: 40px;
+  }
+}
