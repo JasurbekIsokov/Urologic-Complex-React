@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+
+import Header from "../Layouts/Header.jsx";
+import Form from "../Components/Form.jsx";
+import GlobalArrow from "../Components/GlobalArrow.jsx";
+import Footer from "../Layouts/Footer";
 
 const ArticlesSingle = () => {
   return (
-    <div>
-      <h1>ArticlesSingle</h1>
+    <div className="articlesSingle-page">
+      <Header />
+      <Form />
+      <GlobalArrow />
+      <Footer />
     </div>
   );
-}
+};
 
-export default ArticlesSingle
+export default ArticlesSingle;
