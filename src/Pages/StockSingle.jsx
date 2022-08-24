@@ -11,6 +11,12 @@ const StockSingle = () => {
     <div className="stockSingle-page">
       <Header />
       <ArticlesSingleMain />
+      <div className="articlesSingleMainContainer">
+        <div className="articlesSingleMain">
+          <div className="articlesSingleMain__img3"></div>
+        </div>
+      </div>
+
       <Form />
       <GlobalArrow />
       <Footer />
