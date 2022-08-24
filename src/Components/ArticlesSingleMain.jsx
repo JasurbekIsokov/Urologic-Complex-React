@@ -16,6 +16,7 @@ const ArticlesSingleMain = () => {
           <img src={timer} alt="timer" />
           <p class="articlesSingleMain__date--hours">14:00</p>
         </div>
+        <hr />
         <p class="articlesSingleMain__description">
           Проведение операции на Варикоцеле в Ташкенте от лучших хирургов в
           клинике Urologic Complex. Проведение операции на Варикоцеле в Ташкенте
