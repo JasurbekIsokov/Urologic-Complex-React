@@ -42,6 +42,7 @@ import Reviews from "./Pages/Reviews";
 import Articles from "./Pages/Articles";
 import Stock from "./Pages/Stock";
 import ArticlesSingle from "./Pages/ArticlesSingle";
+import StockSingle from "./Pages/StockSingle";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         <Route path="/articlesSingle" element={<ArticlesSingle />}></Route>
 
         <Route path="/stock" element={<Stock />}></Route>
+        <Route path="/stockSingle" element={<StockSingle />}></Route>
       </Routes>
     </Router>
   );
