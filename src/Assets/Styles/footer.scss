@@ -64,9 +64,19 @@
       color: #9a9ea6;
       margin-bottom: 1rem;
 
-      &:hover {
-        color: #12aadb;
-        cursor: pointer;
+      .link {
+        font-family: "Gilroy", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #9a9ea6;
+        text-decoration: none;
+
+        &:hover {
+          color: #12aadb;
+          cursor: pointer;
+        }
       }
     }
 
@@ -93,6 +103,20 @@
       color: #9a9ea6;
       margin-bottom: 1rem;
 
+      .link {
+        font-family: "Gilroy", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #9a9ea6;
+        text-decoration: none;
+
+        &:hover {
+          color: #12aadb;
+          cursor: pointer;
+        }
+      }
       &:hover {
         color: #12aadb;
         cursor: pointer;
