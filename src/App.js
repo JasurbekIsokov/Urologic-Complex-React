@@ -40,6 +40,7 @@ import Hospital from "./Pages/Hospital";
 import Reviews from "./Pages/Reviews";
 import Articles from "./Pages/Articles";
 import Stock from "./Pages/Stock";
+import ArticlesSingle from "./Pages/ArticlesSingle";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         <Route path="/reviews" element={<Reviews />}></Route>
 
         <Route path="/articles" element={<Articles />}></Route>
+        <Route path="/articlesSingle" element={<ArticlesSingle />}></Route>
 
         <Route path="/stock" element={<Stock />}></Route>
       </Routes>
