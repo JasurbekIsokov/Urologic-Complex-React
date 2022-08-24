@@ -18,6 +18,7 @@ import "./Assets/Styles/priceMain.scss";
 import "./Assets/Styles/servicesMain1.scss";
 import "./Assets/Styles/servicesMain2.scss";
 import "./Assets/Styles/galareya.scss";
+import "./Assets/Styles/articlesBlogCliniki.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";

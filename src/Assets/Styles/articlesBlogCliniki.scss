@@ -1,0 +1,423 @@
+.articlesBlogCliniki__top {
+  max-width: 1326px;
+  margin: auto auto;
+
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--title {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: #0b304f;
+  }
+}
+
+.articlesBlogCliniki {
+  max-width: 1326px;
+  margin: auto auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 4.5rem;
+
+  &__left {
+    padding: 1.5rem;
+    border: 1px solid rgba($color: #0b304f, $alpha: 0.2);
+    border-radius: 32px;
+    margin-right: 20px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .img-box {
+      width: 100%;
+      height: 326px;
+      border-radius: 32px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .img-box1,
+    .img-box5 {
+      background-image: url(../Images/BlogCliniki/blogCliniki-1.svg);
+    }
+
+    .img-box2,
+    .img-box6 {
+      background-image: url(../Images/BlogCliniki/blogCliniki-3.svg);
+    }
+
+    .img-box3 {
+      background-image: url(../Images/BlogCliniki/blogCliniki-2.svg);
+    }
+
+    .img-box4 {
+      background-image: url(../Images/BlogCliniki/blogCliniki-1.svg);
+    }
+
+    &:hover {
+      border: 1px solid #12aadb;
+    }
+
+    &--time {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 1.5rem;
+    }
+
+    &--time-year {
+      margin-right: 2rem;
+    }
+
+    &--time-year,
+    &--time-hour {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: #afb7bf;
+    }
+
+    &--time-hour {
+      margin-left: 8px;
+    }
+
+    &--title {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 160%;
+      color: #0b304f;
+      margin: 0.5rem 0;
+    }
+
+    &--description {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #576f83;
+      margin-bottom: 1rem;
+    }
+
+    &--bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 0.5rem;
+
+      &:hover {
+        cursor: pointer;
+
+        p {
+          color: #12aadb;
+        }
+      }
+
+      p {
+        margin-right: 0.5rem;
+
+        font-family: "Gilroy", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+
+        color: #0b304f;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+
+    &--glaz {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        margin-left: 0.5rem;
+        font-family: "Gilroy", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #afb7bf;
+      }
+    }
+  }
+
+  .midle-box {
+    margin: 20px auto;
+  }
+
+  &__box {
+    border: 1px solid rgba($color: #0b304f, $alpha: 0.2);
+    border-radius: 32px;
+    padding: 1rem;
+    display: flex;
+    justify-content: start;
+
+    &:hover {
+      border: 1px solid #12aadb;
+    }
+
+    img {
+      margin-right: 1rem;
+    }
+
+    &--title {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 140%;
+      color: #0b304f;
+      margin: 5px 0 4px 0;
+    }
+
+    &--description {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #576f83;
+      margin-bottom: 4px;
+    }
+
+    &--time {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+      }
+    }
+
+    &--time-year,
+    &--time-hour {
+      font-family: "Gilroy", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 160%;
+      color: #afb7bf;
+    }
+
+    &--time-year {
+      margin-right: 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &--time-hour {
+      margin-left: 0px;
+    }
+  }
+}
+
+// min-width: 1200px
+
+@media only screen and (max-width: 1200px) {
+  .articlesBlogCliniki {
+    .img-box {
+      max-height: 226px;
+    }
+    &__box {
+      flex-direction: column;
+
+      img {
+        margin: 0;
+      }
+
+      &--time {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+          width: 16px;
+          height: 16px;
+          margin-right: 4px;
+        }
+      }
+
+      &--time-year {
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+
+    .midle-box {
+      margin-bottom: 0;
+    }
+
+    .midle-box > img {
+      display: none;
+    }
+
+    .midle-box ~ div {
+      display: none;
+    }
+  }
+}
+
+// min-width: 992px
+
+@media only screen and (max-width: 992px) {
+  .articlesBlogCliniki {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+
+    &__left {
+      margin-left: 0;
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .img-box {
+        max-height: 326px;
+      }
+    }
+
+    &__left ~ div {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+// min-width: 768px
+
+@media only screen and (max-width: 768px) {
+  .articlesBlogCliniki__top {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+
+    &--title {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 160%;
+    }
+  }
+}
+
+// min-width: 576px
+
+@media only screen and (max-width: 576px) {
+  .articlesBlogCliniki__top {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    &--title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 160%;
+    }
+
+    &--right {
+      p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+      }
+    }
+  }
+
+  .articlesBlogCliniki {
+    margin-bottom: 28px;
+
+    &__left {
+      margin-bottom: 0;
+      .img-box {
+        max-height: 190px;
+        border-radius: 24px;
+      }
+
+      &--time {
+        margin-top: 0.5rem;
+      }
+
+      &--time {
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      &--time-year {
+        margin-right: 1.5rem;
+      }
+
+      &--time-year,
+      &--time-hour {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160%;
+      }
+
+      &--time-hour {
+        margin-left: 8px;
+      }
+
+      &--title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+      }
+
+      &--description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+      }
+
+      &--button {
+        p {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 160%;
+        }
+      }
+
+      &--glaz {
+        display: none;
+      }
+    }
+
+    &__left ~ div {
+      margin-bottom: 0rem;
+      margin-top: 0;
+    }
+  }
+
+  .articlesBlogCliniki__left ~ div {
+    margin-top: 1rem;
+  }
+}
