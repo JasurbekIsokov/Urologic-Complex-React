@@ -7,7 +7,7 @@ import Footer from "../Layouts/Footer";
 
 const Doctors = () => {
   return (
-    <div className="doctors">
+    <div className="doctors-page">
       <Header />
       <Form />
       <GlobalArrow />

@@ -1,9 +1,17 @@
 import React from "react";
 
+import Header from "../Layouts/Header.jsx";
+import Form from "../Components/Form.jsx";
+import GlobalArrow from "../Components/GlobalArrow.jsx";
+import Footer from "../Layouts/Footer";
+
 const DoctorsSingle = () => {
   return (
-    <div>
-      <h1>DoctorsSingle</h1>
+    <div className="doctorsSingle-page">
+      <Header />
+      <Form />
+      <GlobalArrow />
+      <Footer />
     </div>
   );
 };
