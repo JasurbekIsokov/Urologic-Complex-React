@@ -152,3 +152,79 @@
     }
   }
 }
+
+// max-width: 576px
+
+@media only screen and (max-width: 576px) {
+  .articlesSingleMain {
+    margin-top: 1.5rem;
+    margin-bottom: 40px;
+
+    &__title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 160%;
+      margin-bottom: 0.5rem;
+    }
+
+    &__date {
+      margin-top: 0.5rem;
+
+      img {
+        width: 16px;
+        height: 16px;
+      }
+
+      &--year {
+        margin-right: 1.5rem;
+      }
+
+      &--year,
+      &--hour {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160%;
+      }
+
+      &--hour {
+        margin-left: 8px;
+      }
+    }
+
+    hr {
+      margin: 1rem 0;
+    }
+
+    &__description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 160%;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+    }
+
+    &__img1,
+    &__img2 {
+      height: 158px;
+      margin: 1rem 0;
+    }
+
+    &__title2 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 150%;
+      margin-top: 1rem;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-top: 1rem;
+      margin-right: 0;
+      li {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+      }
+    }
+  }
+}
