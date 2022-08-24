@@ -9,8 +9,7 @@ const ArticlesSingleMain = () => {
     <div className="articlesSingleMainContainer">
       <div className="articlesSingleMain">
         <p class="articlesSingleMain__title">
-          Операция на Варикоцеле в Ташкенте | Лучшие <br />
-          Урологи и Хирурги
+          Операция на Варикоцеле в Ташкенте | Лучшие Урологи и Хирурги
         </p>
         <div class="articlesSingleMain__date">
           <p class="articlesSingleMain__date--year">16 апреля 2022 г.</p>

@@ -116,3 +116,18 @@
     }
   }
 }
+
+// max-width: 992px
+
+@media only screen and (max-width: 992px) {
+  .articlesSingleMain {
+    &__title {
+      font-size: 32px;
+    }
+
+    &__img1,
+    &__img2 {
+      height: 352px;
+    }
+  }
+}
