@@ -99,3 +99,20 @@
     margin-bottom: 40px;
   }
 }
+
+// max-width: 1200px
+
+@media only screen and (max-width: 1200px) {
+  .articlesSingleMain {
+    width: 80%;
+
+    &__title {
+      font-size: 34px;
+    }
+
+    &__img1,
+    &__img2 {
+      height: 400px;
+    }
+  }
+}
