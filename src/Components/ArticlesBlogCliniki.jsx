@@ -2,10 +2,6 @@ import React from "react";
 
 import arrow from "../Assets/Images/BlogCliniki/blogCliniki-arrow.svg";
 import timer from "../Assets/Images/BlogCliniki/timer.svg";
-import blogCliniki1 from "../Assets/Images/BlogCliniki/blogCliniki-1.svg";
-import blogCliniki2 from "../Assets/Images/BlogCliniki/blogCliniki-2.svg";
-import blogCliniki3 from "../Assets/Images/BlogCliniki/blogCliniki-3.svg";
-import blogCliniki4 from "../Assets/Images/BlogCliniki/blogCliniki-4.svg";
 import glaz from "../Assets/Images/BlogCliniki/glaza.svg";
 
 const ArticlesBlogCliniki = () => {
