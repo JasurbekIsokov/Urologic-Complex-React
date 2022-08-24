@@ -1,9 +1,17 @@
 import React from "react";
 
+import Header from "../Layouts/Header.jsx";
+import Form from "../Components/Form.jsx";
+import GlobalArrow from "../Components/GlobalArrow.jsx";
+import Footer from "../Layouts/Footer";
+
 const Reviews = () => {
   return (
-    <div>
-      <h1>Reviews</h1>
+    <div className="reviews">
+      <Header />
+      <Form />
+      <GlobalArrow />
+      <Footer />
     </div>
   );
 };
