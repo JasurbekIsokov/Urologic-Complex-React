@@ -190,3 +190,15 @@
     }
   }
 }
+
+// max-width: 992px
+@media only screen and (max-width: 992px) {
+  .contactsMain {
+    display: flex;
+    justify-content: center;
+
+    &__right {
+      display: none;
+    }
+  }
+}
