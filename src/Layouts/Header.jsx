@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import logo from "../Assets/Images/Header/header-logo.svg";
 import search from "../Assets/Images/Header/search.svg";
@@ -9,6 +9,12 @@ import ruFlag from "../Assets/Images/Header/ru-flag.svg";
 import GamburderBtn from "../Components/GamburderBtn";
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const contactClick = () => {
+    navigate("/contacts");
+  };
+
   return (
     <div className="header-back">
       <div className="container">
@@ -122,6 +128,7 @@ const Header = () => {
               </ul>
             </div>
             <p
+              onClick={contactClick}
               style={{ marginBottom: "0" }}
               className="header__right--kontakt btn"
             >
