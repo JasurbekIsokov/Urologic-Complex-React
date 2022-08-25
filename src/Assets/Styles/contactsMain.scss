@@ -138,3 +138,55 @@
     }
   }
 }
+
+// min-width: 1700px
+
+@media only screen and (min-width: 1700px) {
+  .contactsMain {
+    &__right {
+      &--imgBox {
+        width: 128%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .contactsMain {
+    &__right {
+      &--imgBox {
+        width: 132%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .contactsMain {
+    &__right {
+      &--imgBox {
+        width: 136%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .contactsMain {
+    &__right {
+      &--imgBox {
+        width: 140%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .contactsMain {
+    &__right {
+      &--imgBox {
+        width: 143%;
+      }
+    }
+  }
+}
