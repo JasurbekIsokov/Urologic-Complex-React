@@ -1,0 +1,104 @@
+.contactsMain {
+  max-width: 1326px;
+  margin: 0 auto;
+
+  margin-top: 131px;
+  margin-bottom: 126px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  &__left {
+    &--title {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 160%;
+      color: #0b304f;
+      margin-bottom: 4px;
+    }
+
+    &--description {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #8394a2;
+      margin-bottom: 1.5rem;
+      width: 384px;
+    }
+
+    form {
+      background: #ffffff;
+      box-shadow: 0px 36px 104px rgba(0, 0, 0, 0.08);
+      border-radius: 32px;
+      padding: 2rem 2.5rem;
+      margin-top: 1.5rem;
+      max-width: 401px;
+      display: grid;
+      grid-template-columns: auto;
+      text-align: center;
+      gap: 1.5rem;
+
+      input,
+      textarea {
+        background: #f4f4f6;
+        border-radius: 16px;
+        padding: 1rem 19px;
+        border: none;
+        outline: none;
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        width: 100%;
+
+        &::placeholder {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140%;
+          color: rgba(11, 48, 79, 0.2);
+        }
+      }
+
+      textarea {
+        width: 100%;
+        height: 140px;
+        resize: none;
+      }
+
+      button {
+        margin: 0 auto;
+        margin-top: 2rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 32px;
+        gap: 10px;
+
+        border: none;
+        outline: none;
+        width: 146px;
+        height: 42px;
+        background: #12aadb;
+        box-shadow: 0px 8px 32px rgba(18, 170, 219, 0.3);
+        border-radius: 16px;
+
+        font-family: "Gilroy-regular";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        color: #ffffff;
+      }
+    }
+  }
+}

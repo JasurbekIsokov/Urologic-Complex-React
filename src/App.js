@@ -20,6 +20,7 @@ import "./Assets/Styles/servicesMain2.scss";
 import "./Assets/Styles/galareya.scss";
 import "./Assets/Styles/articlesBlogCliniki.scss";
 import "./Assets/Styles/articlesSingleMain.scss";
+import "./Assets/Styles/contactsMain.scss";
 
 // image
 import "./Assets/Images/Footer/footer-logo.svg";
