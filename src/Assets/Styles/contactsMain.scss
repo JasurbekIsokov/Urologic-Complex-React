@@ -202,3 +202,57 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .contactsMain {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+
+    &__left {
+      &--title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 160%;
+        margin-bottom: 0.5rem;
+      }
+
+      &--description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        width: 325px;
+        margin-bottom: 1.5rem;
+      }
+
+      form {
+        width: 327px;
+        padding: 1rem;
+        margin-top: 1.5rem;
+        border-radius: 24px;
+        gap: 1rem;
+        input,
+        textarea {
+          border-radius: 16px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140%;
+
+          &::placeholder {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+          }
+        }
+
+        button {
+          margin-top: 1.5rem;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 160%;
+        }
+      }
+    }
+  }
+}
