@@ -1,0 +1,34 @@
+.contactsMap {
+  max-width: 1326p;
+  margin: 0 auto;
+
+  margin-top: 126px;
+  margin-bottom: 100px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+// map
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 497px;
+  border-radius: 0 248.5px 248.5px 0;
+}
+
+.gmap_canvas {
+  border-radius: 0 248.5px 248.5px 0;
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 497px;
+}
+
+.gmap_iframe {
+  height: 497px !important;
+  border-radius: 0 248.5px 248.5px 0;
+}
+// map
