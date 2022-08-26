@@ -1,10 +1,8 @@
 .contactsMap {
   max-width: 1326p;
   margin: 0 auto;
-
   margin-top: 126px;
   margin-bottom: 100px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -95,3 +93,14 @@
   border-radius: 0 248.5px 248.5px 0;
 }
 // map
+
+// max-width: 1200px
+
+@media only screen and(max-width: 1200px) {
+  .contactsMap {
+    &__right {
+      padding-left: 16px;
+      padding-right: 0px;
+    }
+  }
+}
