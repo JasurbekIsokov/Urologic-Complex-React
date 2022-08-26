@@ -7,6 +7,69 @@
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  &__right {
+    padding-left: 73px;
+    padding-right: 73px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &--box {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 28px;
+
+      img {
+        padding: 12px;
+        width: 48px;
+        height: 48px;
+        background: #e5f6fc;
+        margin-right: 1.5rem;
+        border-radius: 50px;
+      }
+
+      p {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 160%;
+        color: #8394a2;
+      }
+
+      .phoneNumber {
+        font-size: 16px;
+        color: #0b304f;
+      }
+
+      .mail {
+        color: #12aadb;
+      }
+
+      .location {
+        a {
+          text-decoration: none;
+          color: #12aadb;
+          border-bottom: 1px solid #12aadb;
+        }
+      }
+
+      .phone {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        p {
+          margin-right: 2rem;
+        }
+      }
+    }
+
+    .mail-box,
+    .phone-box,
+    .location-box {
+      align-items: center;
+    }
+  }
 }
 
 // map
