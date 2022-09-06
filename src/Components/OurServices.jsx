@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import urologiya from "../Assets/Images/OurServices/urologiya.svg";
 import uroginekologiya from "../Assets/Images/OurServices/uroginekologiya.svg";
@@ -17,6 +18,12 @@ import mobileElementLeft from "../Assets/Images/OurServices/element-mobile-left.
 import mobileElementRight from "../Assets/Images/OurServices/element-mobile-right.svg";
 
 const OurServices = () => {
+  const navigate = useNavigate();
+
+  const andrologiyaOnCLick = () => {
+    navigate("/services");
+  };
+
   return (
     <>
       <div className="container">
@@ -77,7 +84,7 @@ const OurServices = () => {
             </div>
             <div className="services__box--bottom">
               <p>Уроло́гия — область клинической медицины.</p>
-              <img src={whiteArrow} alt="arrow" />
+              <img src={whiteArrow} alt="arrow" onClick={andrologiyaOnCLick} />
             </div>
           </div>
 
