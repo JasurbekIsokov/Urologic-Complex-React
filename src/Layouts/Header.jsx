@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 import logo from "../Assets/Images/Header/header-logo.svg";
 import search from "../Assets/Images/Header/search.svg";
@@ -10,6 +10,7 @@ import GamburderBtn from "../Components/GamburderBtn";
 
 const Header = () => {
   const navigate = useNavigate();
+  const loc = useLocation();
 
   const contactClick = () => {
     navigate("/contacts");
@@ -28,13 +29,28 @@ const Header = () => {
           <navbar className="navbar">
             <ul style={{ marginBottom: "0" }}>
               <li>
-                <Link className="navbarLink" to="/">
+                <Link
+                  className="navbarLink"
+                  to="/"
+                  style={
+                    loc.pathname == "/"
+                      ? { color: "#12AADB" }
+                      : { color: "#0B304F" }
+                  }
+                >
                   Главная
                 </Link>
               </li>
               <li>
-                <Link className="navbarLink" to="/price">
-                  {" "}
+                <Link
+                  className="navbarLink"
+                  to="/price"
+                  style={
+                    loc.pathname == "/price"
+                      ? { color: "#12AADB" }
+                      : { color: "#0B304F" }
+                  }
+                >
                   Прайс лист
                 </Link>
               </li>
@@ -73,7 +89,14 @@ const Header = () => {
               </div>
 
               <div className="dropdown">
-                <li className="dropbtn">
+                <li
+                  className="dropbtn"
+                  style={
+                    loc.pathname == "/services"
+                      ? { color: "#12AADB" }
+                      : { color: "#0B304F" }
+                  }
+                >
                   Услуги <i className="fa-solid fa-angle-down"></i>
                 </li>
                 <div className="dropdown-content">
@@ -92,12 +115,29 @@ const Header = () => {
               </div>
 
               <li>
-                <Link className="navbarLink" to="/articles">
+                <Link
+                  className="navbarLink"
+                  to="/articles"
+                  style={
+                    loc.pathname == "/articles" ||
+                    loc.pathname == "/articlesSingle"
+                      ? { color: "#12AADB" }
+                      : { color: "#0B304F" }
+                  }
+                >
                   Статьи
                 </Link>
               </li>
               <li>
-                <Link className="navbarLink" to="/stock">
+                <Link
+                  className="navbarLink"
+                  to="/stock"
+                  style={
+                    loc.pathname == "/stock"
+                      ? { color: "#12AADB" }
+                      : { color: "#0B304F" }
+                  }
+                >
                   Акции
                 </Link>
               </li>
