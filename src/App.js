@@ -74,3 +74,5 @@ function App() {
 }
 
 export default App;
+
+// 1-buidl: 06.09.22
