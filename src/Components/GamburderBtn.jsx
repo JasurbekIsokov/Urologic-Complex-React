@@ -90,10 +90,10 @@ const GamburderBtn = () => {
                 Прайс лист
                 <img src={arrowMibile} />
               </li>
-              <li>
+              {/* <li>
                 О нас
                 <img src={arrowMibile} />
-              </li>
+              </li> */}
               <li>
                 Услуги
                 <img src={arrowMibile} />

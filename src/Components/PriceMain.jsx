@@ -13,61 +13,63 @@ const PriceMain = () => {
           <p> Утверждаю Директор ООО «Urologic Complex» 02.10.2021 г.</p>
         </div>
       </section>
-      <section class="price containerr">
-        <ul class="price__left">
-          <li class="price__left--title">Амбулаторные манипуляции</li>
-          <li class="price__left--title">Консультация специалистов</li>
-          <li class="price__left--title">Лабараторная диагностика</li>
-          <li class="price__left--title">Рентген исследования</li>
-          <li class="price__left--title">
+      <section className="price containerr">
+        <ul className="price__left">
+          <li className="price__left--title">Амбулаторные манипуляции</li>
+          <li className="price__left--title">Консультация специалистов</li>
+          <li className="price__left--title">Лабараторная диагностика</li>
+          <li className="price__left--title">Рентген исследования</li>
+          <li className="price__left--title">
             Мультиспиральная компьютерная томография
           </li>
-          <li class="price__left--title">
+          <li className="price__left--title">
             Мультиспиральная компьютерная томография
           </li>
-          <li class="price__left--title">УЗД исследование</li>
-          <li class="price__left--title">Урологические манипуляции</li>
-          <li class="price__left--title">Гинекологические манипуляции</li>
-          <li class="price__left--title">
+          <li className="price__left--title">УЗД исследование</li>
+          <li className="price__left--title">Урологические манипуляции</li>
+          <li className="price__left--title">Гинекологические манипуляции</li>
+          <li className="price__left--title">
             Гистологические онкологические манипуляции
           </li>
-          <li class="price__left--title">ЭУВЛ</li>
-          <li class="price__left--title">Анестезиологические манипуляции</li>
-          <li class="price__left--title">Стационар</li>
-          <li class="price__left--title">Химиотерапия</li>
-          <li class="price__left--title">Физиотерапия</li>
-          <li class="price__left--title">Лапароскопические операции</li>
-          <li class="price__left--title">
+          <li className="price__left--title">ЭУВЛ</li>
+          <li className="price__left--title">
+            Анестезиологические манипуляции
+          </li>
+          <li className="price__left--title">Стационар</li>
+          <li className="price__left--title">Химиотерапия</li>
+          <li className="price__left--title">Физиотерапия</li>
+          <li className="price__left--title">Лапароскопические операции</li>
+          <li className="price__left--title">
             Лапароскопические гинекологические операции
           </li>
-          <li class="price__left--title">
+          <li className="price__left--title">
             Традиционные урологические операции
           </li>
-          <li class="price__left--title">
+          <li className="price__left--title">
             Традиционные хирургические операции
           </li>
-          <li class="price__left--title">
+          <li className="price__left--title">
             Традиционные гинекологические операции
           </li>
-          <li class="price__left--title">Эндоваскулярные операции</li>
-          <li class="price__left--title">Эндоурологические операции</li>
-          <li class="price__left--title">Уроонкологические операции</li>
-          <li class="price__left--title">Уроонкологические операции</li>
+          <li className="price__left--title">Эндоваскулярные операции</li>
+          <li className="price__left--title">Эндоурологические операции</li>
+          <li className="price__left--title">Уроонкологические операции</li>
+          <li className="price__left--title">Уроонкологические операции</li>
         </ul>
-        <div class="price__right">
-          <div class="price__right--head">
-            <p class="price__right--head-title">Порядок</p>
-            <div class="price__right--head-search">
+        <div className="price__right">
+          <div className="price__right--head">
+            <p className="price__right--head-title">Порядок</p>
+            <div className="price__right--head-search">
               <input type="text" placeholder="Порядок поиска..." />
               <img src={search} />
             </div>
           </div>
-          <div class="price__right--tableHead">
+          <div className="price__right--tableHead">
             <p>Наименование услуг</p>
-            <p class="sena">Цена</p>
+            <p className="sena">Цена</p>
           </div>
-          <p class="price__right--table-title">Амбулаторные манипуляции</p>
-          <ul class="price__right--table">
+          <p className="price__right--table-title">Амбулаторные манипуляции</p>
+          <ul className="price__right--table">
             <li>
               <span>
                 АМБ 001 Внутривенное вливание (без учета медикаментов)

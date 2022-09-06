@@ -1,10 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import arrow from "../Assets/Images/BlogCliniki/blogCliniki-arrow.svg";
 import timer from "../Assets/Images/BlogCliniki/timer.svg";
 import glaz from "../Assets/Images/BlogCliniki/glaza.svg";
 
 const AksiyBlogCliniki = () => {
+  const navigate = useNavigate();
+
+  const aksiyBlogOnClick = () => {
+    navigate("/stockSingle");
+  };
+
   return (
     <div className="container">
       <div className="articlesBlogCliniki__top">
@@ -29,7 +36,10 @@ const AksiyBlogCliniki = () => {
             Ташкенте от лучших хирургов в клинике Urologic Complex
           </p>
           <div className="articlesBlogCliniki__left--bottom">
-            <div className="articlesBlogCliniki__left--button">
+            <div
+              className="articlesBlogCliniki__left--button"
+              onClick={aksiyBlogOnClick}
+            >
               <p>Подробнее</p>
               <img src={arrow} alt="arrow" />
             </div>
@@ -150,7 +160,10 @@ const AksiyBlogCliniki = () => {
             Ташкенте от лучших хирургов в клинике Urologic Complex
           </p>
           <div className="articlesBlogCliniki__left--bottom">
-            <div className="articlesBlogCliniki__left--button">
+            <div
+              className="articlesBlogCliniki__left--button"
+              onClick={aksiyBlogOnClick}
+            >
               <p>Подробнее</p>
               <img src={arrow} alt="arrow" />
             </div>

@@ -12,6 +12,11 @@ const Header = () => {
   const navigate = useNavigate();
   const loc = useLocation();
 
+  const uslugiOnClick = () => {
+    navigate("/services");
+    console.log("as");
+  };
+
   const contactClick = () => {
     navigate("/contacts");
   };
@@ -54,7 +59,7 @@ const Header = () => {
                   Прайс лист
                 </Link>
               </li>
-
+              {/* 
               <div className="dropdown">
                 <li className="dropbtn">
                   О нас <i className="fa-solid fa-angle-down"></i>
@@ -86,9 +91,9 @@ const Header = () => {
                     </Link>
                   </li>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="dropdown">
+              <div className="dropdown" onClick={uslugiOnClick}>
                 <li
                   className="dropbtn"
                   style={
@@ -133,7 +138,7 @@ const Header = () => {
                   className="navbarLink"
                   to="/stock"
                   style={
-                    loc.pathname == "/stock"
+                    loc.pathname == "/stock" || loc.pathname == "/stockSingle"
                       ? { color: "#12AADB" }
                       : { color: "#0B304F" }
                   }
@@ -182,24 +187,75 @@ const Header = () => {
           <header className="header">
             <navbar className="resNavbar">
               <ul style={{ marginBottom: "0" }}>
-                <li>Главная</li>
-                <li>Прайс лист</li>
+                <li>
+                  <Link
+                    className="navbarLink"
+                    to="/"
+                    style={
+                      loc.pathname == "/"
+                        ? { color: "#12AADB" }
+                        : { color: "#0B304F" }
+                    }
+                  >
+                    Главная
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="navbarLink"
+                    to="/price"
+                    style={
+                      loc.pathname == "/price"
+                        ? { color: "#12AADB" }
+                        : { color: "#0B304F" }
+                    }
+                  >
+                    Прайс лист
+                  </Link>
+                </li>
 
-                <div className="dropdown">
+                {/* <div className="dropdown">
                   <li className="dropbtn">
                     О нас <i className="fa-solid fa-angle-down"></i>
                   </li>
                   <div className="dropdown-content">
-                    <li>Описание</li>
-                    <li>FAQ</li>
-                    <li>Врачи </li>
-                    <li> Стационар</li>
-                    <li>Отзывы</li>
+                    <li>
+                      <Link className="navbarLink" to="/aboutUs">
+                        Описание
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbarLink" to="/faq">
+                        FAQ
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbarLink" to="/doctors">
+                        Врачи
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbarLink" to="/hospital">
+                        Стационар
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbarLink" to="/reviews">
+                        Отзывы
+                      </Link>
+                    </li>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="dropdown">
-                  <li className="dropbtn">
+                <div className="dropdown" onClick={uslugiOnClick}>
+                  <li
+                    className="dropbtn"
+                    style={
+                      loc.pathname == "/services"
+                        ? { color: "#12AADB" }
+                        : { color: "#0B304F" }
+                    }
+                  >
                     Услуги <i className="fa-solid fa-angle-down"></i>
                   </li>
                   <div className="dropdown-content">
@@ -217,8 +273,33 @@ const Header = () => {
                   </div>
                 </div>
 
-                <li>Статьи</li>
-                <li>Акции</li>
+                <li>
+                  <Link
+                    className="navbarLink"
+                    to="/articles"
+                    style={
+                      loc.pathname == "/articles" ||
+                      loc.pathname == "/articlesSingle"
+                        ? { color: "#12AADB" }
+                        : { color: "#0B304F" }
+                    }
+                  >
+                    Статьи
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="navbarLink"
+                    to="/stock"
+                    style={
+                      loc.pathname == "/stock" || loc.pathname == "/stockSingle"
+                        ? { color: "#12AADB" }
+                        : { color: "#0B304F" }
+                    }
+                  >
+                    Акции
+                  </Link>
+                </li>
               </ul>
             </navbar>
           </header>
