@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 import uzFlag from "../Assets/Images/Header/uz-flag.svg";
 import ruFlag from "../Assets/Images/Header/ru-flag.svg";
@@ -13,6 +14,16 @@ import searchRes from "../Assets/Images/Header/search-res.svg";
 import arrowMibile from "../Assets/Images/Header/arrow-mobile.svg";
 
 const GamburderBtn = () => {
+  const navigate = useNavigate();
+
+  const uslugiOnClick = () => {
+    navigate("/services");
+  };
+
+  const contactClick = () => {
+    navigate("/contacts");
+  };
+
   const [test, setTest] = useState("none");
   const [img, setImg] = useState(true);
 
@@ -83,33 +94,44 @@ const GamburderBtn = () => {
           <div className="mobile__head">
             <ul>
               <li>
-                Главная
+                <Link className="navbarLink" to="/">
+                  Главная
+                </Link>
+
                 <img src={arrowMibile} />
               </li>
               <li>
-                Прайс лист
+                <Link className="navbarLink" to="/price">
+                  Прайс лист
+                </Link>
                 <img src={arrowMibile} />
               </li>
               {/* <li>
                 О нас
                 <img src={arrowMibile} />
               </li> */}
-              <li>
+              <li onClick={uslugiOnClick} className="navbarLink">
                 Услуги
                 <img src={arrowMibile} />
               </li>
               <li>
-                Статьи
+                <Link className="navbarLink" to="/articles">
+                  Статьи
+                </Link>
                 <img src={arrowMibile} />
               </li>
               <li>
-                Акции
+                <Link className="navbarLink" to="/stock">
+                  Акции
+                </Link>
                 <img src={arrowMibile} />
               </li>
             </ul>
           </div>
 
-          <p className="mobile__bottom btn">Контакты</p>
+          <p className="mobile__bottom btn" onClick={contactClick}>
+            Контакты
+          </p>
         </div>
       </div>
     </>

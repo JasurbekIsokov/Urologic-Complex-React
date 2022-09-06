@@ -20,6 +20,8 @@
   margin: 0 auto;
   background: #e5f6fc;
   padding-bottom: 40px;
+  z-index: 899;
+  margin-top: -50px;
 
   &__language {
     padding: 1rem 1.5rem;
@@ -131,9 +133,19 @@
         padding: 1rem 1.5rem;
         border-bottom: 1px solid rgba(11, 48, 79, 0.1);
 
+        .navbarLink {
+          text-decoration: none;
+          color: #0b304f;
+        }
+
         &:hover {
           color: #12aadb;
         }
+      }
+
+      .navbarLink {
+        text-decoration: none;
+        color: #0b304f;
       }
 
       li:nth-child(6) {
